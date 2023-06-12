@@ -1,6 +1,6 @@
 # SDSC Summer Institute 2023
-SDSC Summer Institute 2022 material
-[Website](https://na.eventscloud.com/website/36626/)
+SDSC Summer Institute 2023 material
+[Website](https://na.eventscloud.com/website/54186/)
 
 This repository hosts all material and slides of the presentations at the Summer Institute
 
