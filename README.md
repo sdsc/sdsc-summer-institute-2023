@@ -21,12 +21,11 @@ In the event that you need to explicitly use the reservation, training accounts 
 ## Agenda<a name="agenda"></a>
 All times are in Pacific time.
 
-### Day 1 (Wednesday, 07/27/22) <a name="agenda-1"></a>
+### Day 1 (Wednesday, 08/02/22) <a name="agenda-1"></a>
 | **TIME (Pacific time)**       |   **TOPIC** | **PRESENTER** |
 | -------------------- |  ----------- | ----------- |
-| 9:00 AM - 9:25 AM	   |  [1.1 Accounts, Login, Enviroments](https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.1_accessing_expanse) [ [Interactive Video] ](https://education.sdsc.edu/training/interactive/202208_sdscsi/section1_1/)| [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html)   |
-| 9:25 AM – 10:15 AM    |  [1.2  Running Jobs on Expanse](https://github.com/ciml-org/ciml-summer-institute-2022/tree/main/1.2_accounts_login_environments_expanse_portal) [ [Interactive Video] ](https://education.sdsc.edu/training/interactive/202208_sdscsi/section1_2/) | [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html)  |
-| 10:15 AM – 11:00 AM	 |  Q&A, Wrap-up  | All |
+| 9:00 AM - 11:00 AM	   |  [1.0 Preparation Day - Welcome & Orientation]() [ [Interactive Video] ]()| [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html)   |
+
 
 [Back to Top](#top)
 
