@@ -8,8 +8,6 @@ This section contains a set of detailed start-up instructions for setting up you
 <a name="top">Contents
 * [Expanse User Guide](#expanse-guide)
 * [HPC Systems Accounts](#accounts)
-   * [Logging onto the Expanse Portal](#logon-portal)
-   * [Logging onto Expanse HPC Cluster](#logon-expanse)
 * [Computer Requirements](#computer-req)
 * [GitHub, Zoom, and Slack](#Github-Zoom-Slack)
 * [Software Requirements](#software)
