@@ -34,7 +34,7 @@ All times are in Pacific time.
 | 8:00 AM – 8:30 AM    | 	Check-in & Registration |    |
 | 8:30 AM – 9:30 AM    | 	Welcome |    |
 | 8:15 AM – 9:15 AM    | 	[2.1 Parallel Computing Concepts](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/2.1_parallel_computing_concepts) |  [Robert Sinkovits](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html)  |
-| 9:30 AM - 10:15 AM	   |  [2.2 Hardware Overview](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/2.2_hardware_overview| [Andreas Goetz](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html) |
+| 9:30 AM - 10:15 AM	   |  [2.2 Hardware Overview](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/2.2_hardware_overview) | [Andreas Goetz](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html) |
 | 10:15 AM – 10:30 AM  | Break |    |
 | 10:30 AM – 12:00 PM  | 	[2.3 Intermediate Linux](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/2.3_intermediate_linux) | [Andreas Goetz](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html) |
 | 12:00 PM - 1:30 PM  | 	Lunch |    |
