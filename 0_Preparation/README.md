@@ -9,7 +9,7 @@ This section contains a set of detailed start-up instructions for setting up you
 * [Expanse User Guide](#expanse-guide)
 * [HPC Systems Accounts](#accounts)
 * [Computer Requirements](#computer-req)
-* [GitHub, Zoom, and Slack](#Github-Zoom-Slack)
+* [GitHub, Slack, and Zoom](#Github-Slack-Zoom)
 * [Software Requirements](#software)
 * [Preparation Activities](#prep-activities)
    * [Basic HPC Skills](#basic-skills)
@@ -40,7 +40,7 @@ We will send this email in time for  "Prep Day," where we will be covering how t
 [Back to Top](#top)
 <hr>
 
-##  GitHub, Zoom, and Slack <a name="Github-Zoom-Slack"></a>
+##  GitHub, Slack, and Zoom <a name="Github-Slack-Zoom"></a>
 
 ### Github: <a name="github"></a>
 * Training material will be located on the SDSC Summer Institute [GitHub repo](https://github.com/sdsc/sdsc-summer-institute-2023) and one of the Wednesday sessions will require a GitHub account.
