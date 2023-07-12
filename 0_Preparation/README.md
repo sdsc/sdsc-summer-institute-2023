@@ -54,12 +54,12 @@ The Summer Institute is a combination of in-depth lectures and hands-on learning
 * Follow the guide here: [Launching Jupyter Notebooks - SI20 Instructions](https://github.com/sdsc/sdsc-summer-institute-2021/blob/main/0_Preparation/launching_jupyter_notebooks.md)
 * Read the full tutorial here: [Notebooks-101 Tutorial](https://hpc-training.sdsc.edu/notebooks-101/)
 
+[Back to Top](#top)
+<hr>
+
 ## Software Requirements: <a name="software"></a>
 The document below contains a list of software being used at the institute and installation instructions:
 * [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/0_Preparation/software_requirements.md)
-
-[Back to Top](#top)
-<hr>
 
 [Back to Top](#top)
 <hr>
