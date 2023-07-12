@@ -9,12 +9,11 @@ This section contains a set of detailed start-up instructions for setting up you
 * [Expanse User Guide](#expanse-guide)
 * [HPC Systems Accounts](#accounts)
 * [Computer Requirements](#computer-req)
-* [GitHub, Slack, and Zoom](#Github-Slack-Zoom)
 * [Software Requirements](#software)
 * [Preparation Activities](#prep-activities)
    * [Basic HPC Skills](#basic-skills)
    * [Launching Jupyter Notebooks](#jup-ntbks)
-
+ * [GitHub, Slack, and Zoom](#Github-Slack-Zoom)
   
 ## Expanse User Guide <a name="expanse-guide"></a>
 Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
@@ -40,6 +39,24 @@ We will send this email in time for  "Prep Day," where we will be covering how t
 [Back to Top](#top)
 <hr>
 
+## Preparation Activities: <a name="prep-activities"></a>
+The Summer Institute is a combination of in-depth lectures and hands-on learning. The following documents will guide you through the necessary steps needed to be prepared to get to work when you arrive at the Institute.
+
+### Basic HPC Skills: <a name="basic-skills">
+* [Connecting Securely to SDSC HPC Systems](https://github.com/sdsc-hpc-training-org/hpc-security)
+    * WATCH - [Indispensable Security: Tips to Use SDSC's HPC Resources Securely](https://education.sdsc.edu/training/interactive/202007_security_tips/index.php)
+* [Basic_Linux_Skills](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse)
+* [Interactive Computing](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/interactive_computing)
+* [Using GitHub on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github)
+
+### Launching Jupyter Notebooks: <a name="jup-ntbks">
+* View the presentation: [Running Secure Jupyter Notebooks on Expanse](https://github.com/sdsc/sdsc-summer-institute-2021/blob/main/0_Preparation/MThomas-Running-Secure-Jupyter-Notebooks-on-Expanse.pdf)
+* Follow the guide here: [Launching Jupyter Notebooks - SI20 Instructions](https://github.com/sdsc/sdsc-summer-institute-2021/blob/main/0_Preparation/launching_jupyter_notebooks.md)
+* Read the full tutorial here: [Notebooks-101 Tutorial](https://hpc-training.sdsc.edu/notebooks-101/)
+
+
+[Back to Top](#top)
+<hr>
 ##  GitHub, Slack, and Zoom <a name="Github-Slack-Zoom"></a>
 
 ### Github: <a name="github"></a>
@@ -63,25 +80,6 @@ We will send this email in time for  "Prep Day," where we will be covering how t
 ## Software Requirements: <a name="software"></a>
 The document below contains a list of software being used at the institute and installation instructions:
 * [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/0_Preparation/software_requirements.md)
-
-[Back to Top](#top)
-<hr>
-
-## Preparation Activities: <a name="prep-activities"></a>
-The Summer Institute is a combination of in-depth lectures and hands-on learning. The following documents will guide you through the necessary steps needed to be prepared to get to work when you arrive at the Institute.
-
-### Basic HPC Skills: <a name="basic-skills">
-* [Connecting Securely to SDSC HPC Systems](https://github.com/sdsc-hpc-training-org/hpc-security)
-    * WATCH - [Indispensable Security: Tips to Use SDSC's HPC Resources Securely](https://education.sdsc.edu/training/interactive/202007_security_tips/index.php)
-* [Basic_Linux_Skills](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse)
-* [Interactive Computing](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/interactive_computing)
-* [Using GitHub on Expanse](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github)
-
-### Launching Jupyter Notebooks: <a name="jup-ntbks">
-* View the presentation: [Running Secure Jupyter Notebooks on Expanse](https://github.com/sdsc/sdsc-summer-institute-2021/blob/main/0_Preparation/MThomas-Running-Secure-Jupyter-Notebooks-on-Expanse.pdf)
-* Follow the guide here: [Launching Jupyter Notebooks - SI20 Instructions](https://github.com/sdsc/sdsc-summer-institute-2021/blob/main/0_Preparation/launching_jupyter_notebooks.md)
-* Read the full tutorial here: [Notebooks-101 Tutorial](https://hpc-training.sdsc.edu/notebooks-101/)
-
 
 [Back to Top](#top)
 <hr>
