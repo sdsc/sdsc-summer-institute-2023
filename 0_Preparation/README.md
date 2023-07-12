@@ -9,11 +9,11 @@ This section contains a set of detailed start-up instructions for setting up you
 * [Expanse User Guide](#expanse-guide)
 * [HPC Systems Accounts](#accounts)
 * [Computer Requirements](#computer-req)
-* [Software Requirements](#software)
 * [Preparation Activities](#prep-activities)
    * [Basic HPC Skills](#basic-skills)
    * [Launching Jupyter Notebooks](#jup-ntbks)
- * [GitHub, Slack, and Zoom](#Github-Slack-Zoom)
+* [Software Requirements](#software)
+* [GitHub, Slack, and Zoom](#Github-Slack-Zoom)
   
 ## Expanse User Guide <a name="expanse-guide"></a>
 Please read the Expanse user guide and familiarize yourself with the hardware, file systems, batch job submission, compilers and modules. The guide can be found here:
@@ -54,6 +54,12 @@ The Summer Institute is a combination of in-depth lectures and hands-on learning
 * Follow the guide here: [Launching Jupyter Notebooks - SI20 Instructions](https://github.com/sdsc/sdsc-summer-institute-2021/blob/main/0_Preparation/launching_jupyter_notebooks.md)
 * Read the full tutorial here: [Notebooks-101 Tutorial](https://hpc-training.sdsc.edu/notebooks-101/)
 
+## Software Requirements: <a name="software"></a>
+The document below contains a list of software being used at the institute and installation instructions:
+* [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/0_Preparation/software_requirements.md)
+
+[Back to Top](#top)
+<hr>
 
 [Back to Top](#top)
 <hr>
@@ -77,9 +83,3 @@ The Summer Institute is a combination of in-depth lectures and hands-on learning
 
 [Back to Top](#top)
 
-## Software Requirements: <a name="software"></a>
-The document below contains a list of software being used at the institute and installation instructions:
-* [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/0_Preparation/software_requirements.md)
-
-[Back to Top](#top)
-<hr>
