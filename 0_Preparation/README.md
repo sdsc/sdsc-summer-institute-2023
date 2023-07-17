@@ -79,7 +79,7 @@ The document below contains a list of software being used at the institute and i
   
 **You have access to TWO channels:**
 * **#general**: Used for announcements, team-wide conversations, and any questions during sessions along with troubleshooting any issues related to account access or login 
-* **Breakout-Room**: Used for instructions occurring in the Synthesis Center during parallel sessions. 
+* **#breakout-room**: Used for instructions occurring in the Synthesis Center during parallel sessions. 
 
 [Back to Top](#top)
 
