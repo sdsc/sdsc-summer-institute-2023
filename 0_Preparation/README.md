@@ -32,9 +32,7 @@ We will send this email in time for  "Prep Day," where we will be covering how t
 <hr>
 
  ## Computer Requirements: <a name="computer-req"></a>
-* After you access your account information, confirm that you can login (SSH) to Expanse using the device you plan to use during the SDSC Summer Institute (laptop, workstation, etc...).  Detailed instructions on connecting to Expanse using SSH can be found [here](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/connecting-to-hpc-systems).  
-* We recommend a second screen for the hands-on sessions. The first to view the presentation, the second for hands-on.
-* For visualization tutorial a mouse with scroll wheel is highly recommended (laptop track pads are very difficult to use for 3D navigation).
+* You will need to bring your own laptop for the summer institute. This will be used both for running software locally and connecting to SDSC’s supercomputers.
 
 [Back to Top](#top)
 <hr>
