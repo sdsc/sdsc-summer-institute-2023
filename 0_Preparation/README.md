@@ -61,17 +61,18 @@ The document below contains a list of software being used at the institute and i
 
 [Back to Top](#top)
 <hr>
-##  GitHub, Slack, and Zoom <a name="Github-Slack-Zoom"></a>
+
+## GitHub, Slack, and Zoom: <a name="Github-Slack-Zoom"></a>
 
 ### Github: <a name="github"></a>
 * Training material will be located on the SDSC Summer Institute [GitHub repo](https://github.com/sdsc/sdsc-summer-institute-2023) and one of the Wednesday sessions will require a GitHub account.
 * If you do not already have one, you can create a free personal GitHub account [here](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/signing-up-for-a-new-github-account).  
-* For basic GitHub usage on SDSC systems, see here: https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github
+* For basic GitHub usage on SDSC systems, see [here](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github)
 
 ### Slack:  <a name="slack"></a>
 * We will also be using Slack as our main platform for announcements, where participants can communicate and ask for help. Download ([Windows](https://slack.com/downloads/windows), [MacOS](https://slack.com/downloads/mac), or [Linux](https://slack.com/downloads/linux)) and [get started](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users). 
 
-You will be automatically added to the following channels: 
+You will be automatically added to the following channels once you've joined the Slack workspace (see prep email recevied): 
 * #main: used for announcements, team-wide conversations, and any questions during sessions along with troubleshooting any issues related to account access or login 
 * #breakout: used for instructions occurring in the Synthesis Center during parallel sessions. 
 * #random: for anything else not related to the workshop (i.e., planning a meet-up) 
