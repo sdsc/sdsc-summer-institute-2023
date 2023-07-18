@@ -70,16 +70,17 @@ The document below contains a list of software being used at the institute and i
 * If you do not already have one, you can create a free personal GitHub account [here](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/signing-up-for-a-new-github-account).  
 * For basic GitHub usage on SDSC systems, see here: https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github
 
+### Slack:  <a name="slack"></a>
+* We will also be using Slack as our main platform for announcements, where participants can communicate and ask for help. Download ([Windows](https://slack.com/downloads/windows), [MacOS](https://slack.com/downloads/mac), or [Linux](https://slack.com/downloads/linux)) and [get started](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users). Zoom chat will be disabled. Make sure to turn on your Slack notifications to receive alerts. 
+
+You will be automatically added to the following channels: 
+* #main: used for announcements, team-wide conversations, and any questions during sessions along with troubleshooting any issues related to account access or login 
+* #breakout: used for instructions occurring in the Synthesis Center during parallel sessions. 
+* #random: for anything else not related to the workshop (i.e., planning a meet-up) 
+
 ### Zoom:  <a name="zoom"></a>
 * We will be using Zoom for preparation day on Wednesday, August 2, 2023, from 9am-11am (Pacific Time).
 * You will need to install the latest [Zoom](https://zoom.us/download) client, which is available for Windows, MacOS and Linux. Once installed, you can test your microphone and camera interface with Zoom [here](https://zoom.us/test). You can find more information on Zoom system requirements, including bandwidth requirements [here](https://support.zoom.us/hc/en-us/articles/201362023-System-Requirements-for-PC-Mac-and-Linux).
   
-### Slack:  <a name="slack"></a>
-* We will also be using Slack as our main platform for announcements, where participants can communicate and ask for help. Download ([Windows](https://slack.com/downloads/windows), [MacOS](https://slack.com/downloads/mac), or [Linux](https://slack.com/downloads/linux)) and [get started](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users). Zoom chat will be disabled. Make sure to turn on your Slack notifications to receive alerts. 
-  
-**You have access to TWO channels:**
-* **#general**: Used for announcements, team-wide conversations, and any questions during sessions along with troubleshooting any issues related to account access or login 
-* **#breakout-room**: Used for instructions occurring in the Synthesis Center during parallel sessions. 
-
 [Back to Top](#top)
 
