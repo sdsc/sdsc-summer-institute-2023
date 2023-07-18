@@ -71,7 +71,7 @@ The document below contains a list of software being used at the institute and i
 * For basic GitHub usage on SDSC systems, see here: https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github
 
 ### Slack:  <a name="slack"></a>
-* We will also be using Slack as our main platform for announcements, where participants can communicate and ask for help. Download ([Windows](https://slack.com/downloads/windows), [MacOS](https://slack.com/downloads/mac), or [Linux](https://slack.com/downloads/linux)) and [get started](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users). Zoom chat will be disabled. Make sure to turn on your Slack notifications to receive alerts. 
+* We will also be using Slack as our main platform for announcements, where participants can communicate and ask for help. Download ([Windows](https://slack.com/downloads/windows), [MacOS](https://slack.com/downloads/mac), or [Linux](https://slack.com/downloads/linux)) and [get started](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users). 
 
 You will be automatically added to the following channels: 
 * #main: used for announcements, team-wide conversations, and any questions during sessions along with troubleshooting any issues related to account access or login 
