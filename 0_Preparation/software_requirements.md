@@ -6,3 +6,4 @@ Some sessions require that customized software be installed on **your laptop**. 
 See this quick-start guide: https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/using_github
 
 <hr>
+
