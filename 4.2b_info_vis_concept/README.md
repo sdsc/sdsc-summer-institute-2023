@@ -3,7 +3,7 @@
 
 **Date:** Wednesday, August 9, 2023
 
-**Summary**: This tutorial will provide a ground up understanding of information visualization concepts and how they can be leveraged to select and use effective visual idioms for different data types such spreadsheet data, geospatial, graph, etc.). Example visualization designs and fixing problems with existing visualizations will be discussed. Practical rules of thumbs for visualization will be discussed as well.
+**Summary**: This tutorial will provide a ground up understanding of information visualization concepts and how they can be leveraged to select and use effective visual idioms for different data types such spreadsheet data, geospatial, graph, etc.). Example visualization designs, tools (Tableua, Plotly, D3JS) and fixing problems with existing visualizations will be discussed. Practical rules of thumbs for visualization will be discussed as well.
 
 **Presented by:** [Neil Smith](https://qi.ucsd.edu/about/leadership/neil-smith/) (ngsmith @ucsd.edu)
 
@@ -12,6 +12,8 @@
    * Presentation Slides: will be made available closer to the session
 * **Source Code/Examples:** N/A
 
-### TASKS: None at this time.
+### TASKS:
+* Install Python3
+* Install Tableau and either get free trial or register with school account (https://www.tableau.com/products/desktop/download)
 
 [Back to Top](#top)
