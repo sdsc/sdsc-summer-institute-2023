@@ -1,10 +1,13 @@
 ### SDSC Summer Institute 2023 
-# Session 1.0 Preparation Day 
+# Session 1.0 Preparation Day
+
 
 **Date: Wednesday, August 2nd, 2023**
 
+
 ## Welcome & Orientation
 [Robert Sinkovits, Director of Education and Training](https://www.sdsc.edu/research/researcher_spotlight/sinkovits_robert.html)
+
 
 ## Accounts, Login, Environment, Running Jobs and Logging into Expanse User Portal
 Marty Kandes, Computational & Data Science Research Specialist, HPC User Services Group
