@@ -41,4 +41,6 @@ For any account user issues/questions, contact consult@sdsc.edu.
 If you are no longer able to retrieve your password and/or have forgotten the password, please let us know in the Zoom chat. We will resend you a new password as soon as possible.
 
 Additional Notes:
-- [Summer Institute Preparation Day 2022](https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation)
+- https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation
+- https://education.sdsc.edu/training/interactive/202208_sdscsi/section1_1/
+- https://education.sdsc.edu/training/interactive/202208_sdscsi/section1_2/
