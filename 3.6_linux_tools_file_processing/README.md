@@ -10,7 +10,8 @@
 ### Reading and Presentations:
 * **Lecture material:**
    * Presentation Slides: will be made available closer to the session
-* **Source Code/Examples:** N/A
+* **Source Code/Examples:**
+  * https://github.com/sinkovit/Linux-text-tools/
 
 ### TASKS: None at this time.
 
