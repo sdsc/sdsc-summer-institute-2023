@@ -13,7 +13,7 @@ In this virtual session, we'll familiarize you with logging into Expanse with yo
 
 ### Getting your training account and password
 
-You should have recieved an email with the subject line: **HPC & DS 2023 Summer Institute: Account Set-Up**. The contexts of the email should look like the following:
+You should have received an email with the subject line: **HPC & DS 2023 Summer Institute: Account Set-Up**. The context of the email is as follows:
 
 ```
 Your personalized account information is given below.
