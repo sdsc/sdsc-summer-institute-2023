@@ -59,7 +59,7 @@ It's possible that we may experience an outage of the portal during the Summer I
 
 If you are a *Windows* user, the easiest way to get started with SSH may be by setting up the [OpenSSH Client in PowerShell](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). You can also use a more traditional SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). However, if you have the time, then I would recommend you setup the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) , which will provide you with a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly from your standard Windows machine.
 
-
+We'll come back to this before we end the session today. i.e., [How to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/SSH.md#easy-access-setting-up-ssh-keys-key)
 
 Additional Notes:
 - https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation
