@@ -59,7 +59,7 @@ It's possible that we may experience an outage of the portal during the Summer I
 
 If you are a *Windows* user, the easiest way to get started with SSH may be by setting up the [OpenSSH Client in PowerShell](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). You can also use a more traditional SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). However, if you have the time, then I would recommend you setup the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) , which will provide you with a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly from your standard Windows machine.
 
-### Let's test your enviornment
+### Let's test your environment
 
 From either the Expanse User Portal or your terminal, we want to run a few command aliases we've setup in your environment on Expanse to make the hands-on sessions next week go more smoothly. You can find these command aliases in your `.bashrc` file.
 
@@ -108,6 +108,8 @@ alias jupyter-gpu-shared-tensorflow="galyleo launch --account ${SI23_ACCOUNT} --
 alias jupyter-compute-keras-nlp="galyleo launch --account ${SI23_ACCOUNT} --reservation ${SI23_RES_CPU} --partition compute --qos ${SI23_QOS_CPU} --cpus 128 --memory 243 --time-limit 01:30:00 --conda-env keras-nlp --conda-yml keras-nlp.yaml --mamba --quiet"
 [train108@login02 ~]$
 ```
+
+If you are unable to run any of the command aliases we are testing, please let us know in the Zoom chat. 
 
 ### Setting up SSH keys
 
