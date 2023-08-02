@@ -45,6 +45,8 @@ If you are no longer able to retrieve your password and/or have forgotten the pa
 
 Once you have your training account username and password, please open your favorite web broswer to the [Expanse User Portal](https://portal.expanse.sdsc.edu/training) and attempt to login. If you are unable to login to the portal, please let us know in the Zoom chat. We may need to help you debug the problem. Please note, however, restarting your web browser in private mode is typically the first quick fix  we'll try.
 
+If you're able to login successfully, please feel free to explore what's available via portal. You can find the portal's **Online Documentation** under the **Help** tab in the upper right of the dashboard. We'll do a quick tour of the portal as well once we get everyone logged in. 
+
 Additional Notes:
 - https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation
 - https://education.sdsc.edu/training/interactive/202208_sdscsi/section1_1/
