@@ -47,6 +47,18 @@ Once you have your training account username and password, please open your favo
 
 If you're able to login successfully, please feel free to explore what's available via portal. You can find the portal's **Online Documentation** under the **Help** tab in the upper right of the dashboard. We'll do a quick tour of the portal as well once we get everyone logged in. 
 
+### Login to Expanse via SSH.
+
+After you're done exploring the Expanse User Portal, please also attempt to login directly to Expanse via SSH. 
+```
+ssh trainXXX@login.expanse.sdsc.edu
+```
+You should be prompted for the same password you used to login to the portal. 
+
+It's possible that we may experience an outage of the portal during the Summer Institute, so it's good to also make sure you have direct access via SSH. Or maybe you, like me, prefer to work from a standard terminal application. 
+
+
+
 Additional Notes:
 - https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation
 - https://education.sdsc.edu/training/interactive/202208_sdscsi/section1_1/
