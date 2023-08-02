@@ -12,7 +12,7 @@
 ## Accounts, Login, Environment, Running Jobs and Logging into Expanse User Portal
 Marty Kandes, Computational & Data Science Research Specialist, HPC User Services Group
 
-In this virtual session, we'll familiarize you with logging into Expanse with your training account both via the Expane User Portal and directly via SSH. We'll also have you run and test some of the command aliases we've setup in your enviornment on Expanse to make your hands-on work next week at the Summer Institute easier to manage and get started working on the system. 
+In this virtual session, we'll familiarize you with logging into Expanse with your training account both via the Expane User Portal and directly via SSH. We'll also have you run and test some of the command aliases we've setup in your enviornment on Expanse to make your hands-on sessions next week at the Summer Institute got easier and help you get started working on the system quickl
 
 ### Getting your training account and password
 
@@ -59,7 +59,13 @@ It's possible that we may experience an outage of the portal during the Summer I
 
 If you are a *Windows* user, the easiest way to get started with SSH may be by setting up the [OpenSSH Client in PowerShell](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). You can also use a more traditional SSH client like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). However, if you have the time, then I would recommend you setup the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) , which will provide you with a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly from your standard Windows machine.
 
-We'll come back to this before we end the session today. i.e., [How to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/SSH.md#easy-access-setting-up-ssh-keys-key)
+### Let's test your enviornment
+
+From either the Expanse User Portal or your terminal, we want to run a few command aliaes we've setup in your environment on Expanse to make 
+
+### Setting up SSH keys
+
+And finally, the last thing we'll do to day is show you [how to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/SSH.md#easy-access-setting-up-ssh-keys-key), which might help make the login proccess next week less cumbersome for you. The tutorial in the works here loosely follows this one from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04).
 
 Additional Notes:
 - https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation
