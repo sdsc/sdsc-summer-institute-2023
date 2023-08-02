@@ -12,7 +12,7 @@
 ## Accounts, Login, Environment, Running Jobs and Logging into Expanse User Portal
 Marty Kandes, Computational & Data Science Research Specialist, HPC User Services Group
 
-In this virtual session, we'll familiarize you with logging into Expanse with your training account both via the Expane User Portal and directly via SSH. We'll also have you run and test some of the command aliases we've setup in your enviornment on Expanse to make your hands-on sessions next week at the Summer Institute got easier and help you get started working on the system quickl
+In this virtual session, we'll familiarize you with logging into Expanse with your training account both via the Expane User Portal and directly via SSH. We'll also have you run and test some of the command aliases we've setup in your environment on Expanse to make your hands-on sessions next week at the Summer Institute go more smoothly. 
 
 ### Getting your training account and password
 
@@ -61,11 +61,57 @@ If you are a *Windows* user, the easiest way to get started with SSH may be by s
 
 ### Let's test your enviornment
 
-From either the Expanse User Portal or your terminal, we want to run a few command aliaes we've setup in your environment on Expanse to make 
+From either the Expanse User Portal or your terminal, we want to run a few command aliases we've setup in your environment on Expanse to make the hands-on sessions next week go more smoothly. You can find these command aliases in your `.bashrc` file.
+
+```
+[train108@login02 ~]$ cat .bashrc
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# Define common allocation and job-related environment variables
+declare -xr SI23_ACCOUNT='gue998'
+declare -xr SI23_RES_CPU='hpcds23cpu0'
+declare -xr SI23_RES_GPU='hpcds23gpu0'
+declare -xr SI23_QOS_CPU='normal-eot'
+declare -xr SI23_QOS_GPU='gpu-shared-eot'
+
+# Define pre-staged container and data directories
+declare -xr SI23_CONTAINER_DIR='/cm/shared/apps/containers/singularity'
+declare -xr SI23_DATA_DIR='/cm/shared/examples/sdsc/si/2023'
+
+# Define srun-based interactive job command aliases
+alias srun-shared="srun --account=${SI23_ACCOUNT} --reservation=${SI23_RES_CPU} --partition=shared --nodes=1 --ntasks-per-node=1 --cpus-per-task=4 --mem=16G --time=04:00:00 --pty --wait=0 /bin/bash"
+alias srun-compute="srun --account=${SI23_ACCOUNT} --reservation=${SI23_RES_CPU} --partition=compute --qos=${SI23_QOS_CPU} --nodes=1 --ntasks-per-node=1 --cpus-per-task=128 --mem=243G --time=04:00:00 --pty --wait=0 /bin/bash"
+alias srun-gpu-shared="srun --account=${SI23_ACCOUNT} --reservation=${SI23_RES_GPU} --partition=gpu-shared --qos=${SI23_QOS_GPU} --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 --mem=92G --gpus=1 --time=04:00:00 --pty --wait=0 /bin/bash"
+
+# Prepend the GALYLEO_INSTALL_DIR to each user's PATH
+export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
+
+# Define galyleo-based Jupyter notebook session command aliases
+alias jupyter-shared-spark="galyleo launch --account ${SI23_ACCOUNT} --reservation ${SI23_RES_CPU} --partition shared --cpus 4 --memory 16 --time-limit 04:00:00 --env-modules singularitypro --sif ${SI23_CONTAINER_DIR}/spark/spark-latest.sif --bind /cm,/expanse,/scratch --quiet"
+alias jupyter-compute-tensorflow="galyleo launch --account ${SI23_ACCOUNT} --reservation ${SI23_RES_CPU} --partition compute --qos ${SI23_QOS_CPU} --cpus 128 --memory 243 --time-limit 04:00:00 --env-modules singularitypro --sif ${SI23_CONTAINER_DIR}/tensorflow/tensorflow-latest.sif --bind /cm,/expanse,/scratch --quiet"
+alias jupyter-gpu-shared-tensorflow="galyleo launch --account ${SI23_ACCOUNT} --reservation ${SI23_RES_GPU} --partition gpu-shared --qos ${SI23_QOS_GPU} --cpus 10 --memory 92 --gpus 1 --time-limit 04:00:00 --env-modules singularitypro --sif ${SI23_CONTAINER_DIR}/tensorflow/tensorflow-latest.sif --bind /cm,/expanse,/scratch --nv --quiet"
+alias jupyter-compute-keras-nlp="galyleo launch --account ${SI23_ACCOUNT} --reservation ${SI23_RES_CPU} --partition compute --qos ${SI23_QOS_CPU} --cpus 128 --memory 243 --time-limit 01:30:00 --conda-env keras-nlp --conda-yml keras-nlp.yaml --mamba --quiet"
+[train108@login02 ~]$
+```
 
 ### Setting up SSH keys
 
-And finally, the last thing we'll do to day is show you [how to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/SSH.md#easy-access-setting-up-ssh-keys-key), which might help make the login proccess next week less cumbersome for you. The tutorial in the works here loosely follows this one from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04).
+And finally, the last thing we'll do today is show you [how to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/SSH.md#easy-access-setting-up-ssh-keys-key), which might help make the login proccess next week be less cumbersome for you. The tutorial in the works here loosely follows this one from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04).
 
 Additional Notes:
 - https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation
