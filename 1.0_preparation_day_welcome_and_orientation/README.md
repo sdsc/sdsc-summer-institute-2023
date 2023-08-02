@@ -13,5 +13,7 @@ In this virtual session, we'll familiarize you with logging into Expanse with yo
 
 ### Getting your training account and password
 
+You should have recieved an email with the subject line: *HPC & DS 2023 Summer Institute: Account Set-Up*.
+
 Additional Notes:
 - [Summer Institute Preparation Day 2022](https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation)
