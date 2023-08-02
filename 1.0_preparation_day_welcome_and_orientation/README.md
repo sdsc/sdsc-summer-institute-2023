@@ -1,4 +1,5 @@
-# SDSC Summer Institute 2023 - Session 1.0 Preparation Day 
+### SDSC Summer Institute 2023 
+# Session 1.0 Preparation Day 
 
 **Date: Wednesday, August 2nd, 2023**
 
