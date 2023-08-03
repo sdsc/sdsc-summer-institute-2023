@@ -1,5 +1,5 @@
 ### SDSC Summer Institute 2023
-# Session 3.2 Data Management
+
 ## CIFAR through the tubes: Downloading data from the internet [:notes:](https://www.youtube.com/watch?v=_cZC67wXUTs) [:microphone:](https://en.wikipedia.org/wiki/Series_of_tubes)
 
 
