@@ -19,7 +19,7 @@
    * Presentation Slides: will be made available closer to the session
 * **Source Code/Examples:** N/A
 * **Additional references:**
-  - https://education.sdsc.edu/training/interactive/202110_data_management_and_file_systems/index.html
+  - https://www.sdsc.edu/event_items/202110_ExpanseWebinar-M.Shantharam.html
   - https://github.com/sdsc-hpc-training-org/hpc-training-2022/blob/main/week03_jobsub_datamgmt/DataManagement_HPCTraining_2022.pdf
 
 ### TASKS: N/A
