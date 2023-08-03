@@ -115,6 +115,27 @@ If you are unable to run any of the command aliases we are testing, please let u
 
 And finally, the last thing we'll do today is show you [how to setup SSH keys](https://github.com/sdsc/sdsc-summer-institute-2022/blob/main/2.5_data_management/SSH.md#easy-access-setting-up-ssh-keys-key), which might help make the login proccess next week be less cumbersome for you. The tutorial in the works here loosely follows this one from [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04).
 
+#### Step 1 - Generate an SSH key pair (with a passphrase) on your personal computer
+
+```
+ssh-keygen -t rsa -b 4096 -a 128 -f ~/.ssh/sdsc-si23
+```
+
+Don't forget to use a passphrase!
+
+#### Step 2 - Copy your public SSH key to Expanse
+
+```
+ssh-copy-id -i ~/.ssh/sdsc-si23 trainXXX@login.expanse.sdsc.edu
+```
+
+#### Step 3 - Login to Expanse using your SSH keys
+
+```
+ssh -i ~/.ssh/sdsc-si23 trainXXX@login.expanse.sdsc.edu
+```
+
+### Step 4 - Simplify your login by creating a local SSH configuration file (~/.ssh/config) on your personal computer
 
 ```
 Host expanse
