@@ -16,7 +16,10 @@
 [Image Credit: Harvard Biomedical Data Management](https://datamanagement.hms.harvard.edu)
 
 * **Lecture material:**
-   * Presentation Slides: will be made available closer to the session
+  - [CIFAR through the tubes: Downloading data from the internet](DOWNLOADING.md)
+  - [More files, more problems: Advantages and limitations of different filesystems](FILESYSTEMS.md)
+  - [Going parallel: Lustre basics](LUSTRE.md)
+  - [Back that data up: Data transfer tools](TRANSFER.md)
 * **Source Code/Examples:** N/A
 * **Additional References:**
   - [Implementing Research Data Management for Labs & Grants (2021)](https://www.sdsc.edu/event_items/202104_ImplementingResearchData.html)
