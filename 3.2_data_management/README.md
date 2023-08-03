@@ -19,7 +19,7 @@
    * Presentation Slides: will be made available closer to the session
 * **Source Code/Examples:** N/A
 * **Additional references:**
-  - https://www.sdsc.edu/event_items/202110_ExpanseWebinar-M.Shantharam.html
+  - [Data Management & File Systems on Expanse (2021)](https://www.sdsc.edu/event_items/202110_ExpanseWebinar-M.Shantharam.html)
   - https://github.com/sdsc-hpc-training-org/hpc-training-2022/blob/main/week03_jobsub_datamgmt/DataManagement_HPCTraining_2022.pdf
 
 ### TASKS: N/A
