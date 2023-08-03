@@ -144,6 +144,12 @@ User trainXXX
 IdentityFile ~/.ssh/sdsc-si23
 ```
 
+If successful, you should now be able to login almost hands-free with the following command. 
+
+```
+ssh expanse
+```
+
 Additional Notes:
 - https://github.com/sdsc/sdsc-summer-institute-2022/tree/main/1.0_preparation_day_welcome_and_orientation
 - https://education.sdsc.edu/training/interactive/202208_sdscsi/section1_1/
