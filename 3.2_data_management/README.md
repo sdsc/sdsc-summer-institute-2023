@@ -20,7 +20,8 @@
 * **Source Code/Examples:** N/A
 * **Additional references:**
   - [Data Management & File Systems on Expanse (2021)](https://www.sdsc.edu/event_items/202110_ExpanseWebinar-M.Shantharam.html)
-  - https://github.com/sdsc-hpc-training-org/hpc-training-2022/blob/main/week03_jobsub_datamgmt/DataManagement_HPCTraining_2022.pdf
+  - [Data Management & Job Submission (2022)](https://education.sdsc.edu/training/interactive/hpc_user_training_2022/week3/)
+  - [Data Management & File Systems (2023)](https://www.sdsc.edu/event_items/202303-SDSCWebinar-Data-Management-File-Systems.html)
 
 ### TASKS: N/A
 
