@@ -30,6 +30,4 @@
   - [Data Management & Job Submission (2022)](https://education.sdsc.edu/training/interactive/hpc_user_training_2022/week3/)
   - [Data Management & File Systems (2023)](https://www.sdsc.edu/event_items/202303-SDSCWebinar-Data-Management-File-Systems.html)
 
-### TASKS: N/A
-
 [Back to Top](#top)
