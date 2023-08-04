@@ -15,6 +15,8 @@ https://en.wikipedia.org/wiki/CIFAR-10
 
 https://datainnovation.org/2021/10/visualizing-undersea-internet-cables/
 
+https://www.infrapedia.com/
+
 https://en.wikipedia.org/wiki/Internet_backbone
 
 https://www.submarinecablemap.com/
