@@ -5,11 +5,8 @@
 ### Instructor
 
 Marty Kandes
-
 Computational & Data Science Research Specialist
-
 High Performance Computing User Services Group
-
 San Diego Supercomputer Center
 
 ### Summary
