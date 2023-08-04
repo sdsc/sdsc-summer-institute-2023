@@ -1,12 +1,16 @@
 # SDSC Summer Institute 2023 - Session 3.2 Data Management
 
-**Date:** Tuesday, August 8, 2023
+## Date: Tuesday, August 8, 2023
 
-**Summary**: Proper data management is essential to make effective use of high-performance computing (HPC) systems and other advanced cyberinfrastructure (CI) resources. This session will cover an overview of filesystems, data compression, archives (tar files), checksums and MD5 digests, downloading data using wget and curl, data transfer and long-term storage solutions.
+## Summary
 
-**Presented by:** [Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144/) (mkandes@sdsc.edu) 
+Proper data management is essential to make effective use of high-performance computing (HPC) systems and other advanced cyberinfrastructure (CI) resources. This session will cover an overview of filesystems, data compression, archives (tar files), checksums and MD5 digests, downloading data using wget and curl, data transfer and long-term storage solutions.
 
-### Reading and Presentations:
+## Presented by:
+
+[Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144/) (mkandes@sdsc.edu) 
+
+## Reading and Presentations:
 
 *Data has a lifecycle. Data management is a lifestyle.*
 
@@ -14,16 +18,16 @@
 
 [Image Credit: Harvard Biomedical Data Management](https://datamanagement.hms.harvard.edu)
 
-#### **Lecture material:**
+### Lecture material:
   
   - [CIFAR through the tubes: Downloading data from the internet](DOWNLOADING.md)
   - [More files, more problems: Advantages and limitations of different filesystems](FILESYSTEMS.md)
   - [Going parallel: Lustre basics](LUSTRE.md)
   - [Back that data up: Data transfer tools](TRANSFER.md)
     
-#### **Source Code/Examples:** N/A
+### Source Code/Examples
   
-#### **Additional References:**
+### Additional References
   - [Implementing Research Data Management for Labs & Grants (2021)](https://www.sdsc.edu/event_items/202104_ImplementingResearchData.html)
   - [Data Management & File Systems on Expanse (2021)](https://www.sdsc.edu/event_items/202110_ExpanseWebinar-M.Shantharam.html)
   - [Data Management & Job Submission (2022)](https://education.sdsc.edu/training/interactive/hpc_user_training_2022/week3/)
