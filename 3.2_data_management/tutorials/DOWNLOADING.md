@@ -111,7 +111,7 @@ cifar-10-python.tgz: OK
 
 [Back to Top of Page](#top)
 
-[Back to Main Page](README.md)
+[Back to Main Page](../README.md)
 
 Next - [More files, more problems: Advantages and limitations of different filesystems](FILESYSTEMS.md)
 
