@@ -15,6 +15,8 @@ https://www.okta.com/identity-101/hashing-algorithms/
 
 https://www.geeksforgeeks.org/introduction-to-hashing-data-structure-and-algorithm-tutorials/
 
+https://cheapsslsecurity.com/blog/decoded-examples-of-how-hashing-algorithms-work/
+
 https://en.wikipedia.org/wiki/MD5
 
 https://en.wikipedia.org/wiki/Md5sum
