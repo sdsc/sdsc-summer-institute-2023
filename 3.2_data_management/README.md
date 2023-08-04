@@ -1,14 +1,10 @@
 # SDSC Summer Institute 2023 - Session 3.2 Data Management
 
-| ---- | --------------------------|
-| Date | Tuesday, August 8th, 2023 |
-| Time | 9:00 AM – 10:00 AM PT |
-| Instructor | Marty Kandes,
-Computational & Data Science Research Specialist,
-High Performance Computing User Services Group,
-San Diego Supercomputer Center,
-University of California, San Diego |
-| ---- | -------------------------- |
+Date: Tuesday, August 8th, 2023
+
+Time: 9:00 AM – 10:00 AM PT
+
+Instructor: Marty Kandes, Computational & Data Science Research Specialist, High Performance Computing User Services Group, San Diego Supercomputer Center, University of California, San Diego
 
 ### Summary
 
