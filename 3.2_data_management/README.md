@@ -1,5 +1,4 @@
-### SDSC Summer Institute 2023
-# Session 3.2 Data Management
+# SDSC Summer Institute 2023 - Session 3.2 Data Management
 
 **Date:** Tuesday, August 8, 2023
 
