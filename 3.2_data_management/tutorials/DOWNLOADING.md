@@ -3,6 +3,8 @@
 
 https://data.gov/
 
+https://en.m.wikipedia.org/wiki/Zettabyte_Era
+
 https://www.domo.com/data-never-sleeps
 
 https://rivery.io/blog/big-data-statistics-how-much-data-is-there-in-the-world/
