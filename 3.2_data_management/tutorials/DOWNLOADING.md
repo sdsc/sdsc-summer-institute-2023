@@ -11,6 +11,8 @@ https://en.wikipedia.org/wiki/Tar_(computing)
 
 https://en.wikipedia.org/wiki/Secure_Hash_Algorithms
 
+https://www.okta.com/identity-101/hashing-algorithms/
+
 https://en.wikipedia.org/wiki/MD5
 
 https://en.wikipedia.org/wiki/Md5sum
