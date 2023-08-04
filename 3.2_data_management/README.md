@@ -20,10 +20,10 @@ Proper data management is essential to make effective use of high-performance co
 
 #### Lecture material
   
-  - [CIFAR through the tubes: Downloading data from the internet](DOWNLOADING.md)
-  - [More files, more problems: Advantages and limitations of different filesystems](FILESYSTEMS.md)
-  - [Going parallel: Lustre basics](LUSTRE.md)
-  - [Back that data up: Data transfer tools](TRANSFER.md)
+  - [CIFAR through the tubes: Downloading data from the internet](tutorials/DOWNLOADING.md)
+  - [More files, more problems: Advantages and limitations of different filesystems](tutorials/FILESYSTEMS.md)
+  - [Going parallel: Lustre basics](tutorials/LUSTRE.md)
+  - [Back that data up: Data transfer tools](tutorials/TRANSFER.md)
     
 #### Source Code/Examples
   
@@ -37,4 +37,4 @@ Proper data management is essential to make effective use of high-performance co
 
 [Back to Top](#top)
 
-Next - [CIFAR through the tubes: Downloading data from the internet](DOWNLOADING.md)
+Next - [CIFAR through the tubes: Downloading data from the internet](tutorials/DOWNLOADING.md)
