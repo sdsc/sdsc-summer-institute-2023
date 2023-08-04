@@ -5,6 +5,8 @@
 
 https://en.wikipedia.org/wiki/CIFAR-10
 
+https://datainnovation.org/2021/10/visualizing-undersea-internet-cables/
+
 https://en.wikipedia.org/wiki/Wget
 
 https://en.wikipedia.org/wiki/Tar_(computing)
