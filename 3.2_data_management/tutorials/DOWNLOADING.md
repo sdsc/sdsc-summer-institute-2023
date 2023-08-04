@@ -109,7 +109,7 @@ cifar-10-python.tgz: OK
 
 #
 
-[Back to Top](#top)
+[Back to Top of Page](#top)
 
 [Back to Main Page](README.md)
 
