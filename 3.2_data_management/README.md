@@ -2,7 +2,12 @@
 
 ### Date: Tuesday, August 8, 2023
 
-### Instructor: Marty Kandes, Computational & Data Science Research Specialist, HPC User Services Group, SDSC
+### Instructor
+
+Marty Kandes
+Computational & Data Science Research Specialist
+High Performance Computing User Services Group
+San Diego Supercomputer Center
 
 ### Summary
 
