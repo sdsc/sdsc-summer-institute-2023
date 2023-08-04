@@ -7,6 +7,8 @@ https://en.wikipedia.org/wiki/CIFAR-10
 
 https://en.wikipedia.org/wiki/Wget
 
+https://en.wikipedia.org/wiki/CURL
+
 
 ```
 $ ssh expanse
