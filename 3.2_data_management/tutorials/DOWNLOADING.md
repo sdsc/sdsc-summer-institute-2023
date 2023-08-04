@@ -11,6 +11,8 @@ https://en.wikipedia.org/wiki/Tar_(computing)
 
 https://en.wikipedia.org/wiki/Secure_Hash_Algorithms
 
+https://csrc.nist.gov/projects/hash-functions
+
 https://edps.europa.eu/sites/edp/files/publication/19-10-30_aepd-edps_paper_hash_final_en.pdf
 
 https://www.okta.com/identity-101/hashing-algorithms/
