@@ -471,5 +471,11 @@ sys 572.30
 
 #
 
+[Back to Top of Page](#top)
+
+[Back to Main Page](../README.md)
+
+Previous - [More files, more problems: Advantages and limitations of different filesystems](FILESYSTEMS.md)
+
 Next - [Back that data up: Data transfer tools](TRANSFER.md)
 
