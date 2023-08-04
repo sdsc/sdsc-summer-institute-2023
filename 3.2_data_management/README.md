@@ -2,7 +2,7 @@
 
 ### Date: Tuesday, August 8, 2023
 
-### Instructor: [Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144/) (mkandes@sdsc.edu) 
+### Instructor: [Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144/)
 
 ### Summary
 
