@@ -18,7 +18,7 @@ Proper data management is essential to make effective use of high-performance co
 
 [Image Credit: Harvard Biomedical Data Management](https://datamanagement.hms.harvard.edu)
 
-#### Lecture material:
+#### Lecture material
   
   - [CIFAR through the tubes: Downloading data from the internet](DOWNLOADING.md)
   - [More files, more problems: Advantages and limitations of different filesystems](FILESYSTEMS.md)
