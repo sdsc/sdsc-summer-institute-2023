@@ -35,6 +35,6 @@ Proper data management is essential to make effective use of high-performance co
  
 #
 
-[Back to Top](#top)
+[Back to Top of Page](#top)
 
 Next - [CIFAR through the tubes: Downloading data from the internet](tutorials/DOWNLOADING.md)
