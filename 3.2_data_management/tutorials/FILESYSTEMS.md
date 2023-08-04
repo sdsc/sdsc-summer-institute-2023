@@ -306,4 +306,10 @@ drwxr-xr-x 3 xdtr108 uic157    3 Jul 26 09:17 CIFAR-10-images
 
 #
 
+[Back to Top of Page](#top)
+
+[Back to Main Page](../README.md)
+
+Previous - [CIFAR through the tubes: Downloading data from the internet](DOWNLOADING.md)
+
 Next - [Going parallel: Lustre basics](LUSTRE.md)
