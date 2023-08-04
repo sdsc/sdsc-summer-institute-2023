@@ -2,6 +2,8 @@
 
 ### Date: Tuesday, August 8, 2023
 
+### Time: 9:00 AM – 10:00 AM PT
+
 ### Instructor
 
 Marty Kandes,
