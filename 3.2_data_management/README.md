@@ -7,7 +7,8 @@
 Marty Kandes,
 Computational & Data Science Research Specialist,
 High Performance Computing User Services Group,
-San Diego Supercomputer Center
+San Diego Supercomputer Center,
+University of California, San Diego
 
 ### Summary
 
