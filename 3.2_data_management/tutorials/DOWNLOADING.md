@@ -3,6 +3,9 @@
 
 [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html)
 
+https://en.wikipedia.org/wiki/CIFAR-10
+
+
 ```
 $ ssh expanse
 ```
