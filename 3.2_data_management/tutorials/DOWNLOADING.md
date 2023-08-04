@@ -5,6 +5,8 @@ https://data.gov/
 
 https://www.domo.com/data-never-sleeps
 
+https://rivery.io/blog/big-data-statistics-how-much-data-is-there-in-the-world/
+
 [CIFAR](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 https://en.wikipedia.org/wiki/CIFAR-10
