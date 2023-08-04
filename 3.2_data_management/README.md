@@ -2,7 +2,7 @@
 
 ### Date: Tuesday, August 8, 2023
 
-### Instructor: [Marty Kandes](https://www.linkedin.com/in/marty-kandes-b53a34144/)
+### Instructor: Marty Kandes, Computational & Data Science Research Specialist, HPC User Services Group, SDSC
 
 ### Summary
 
