@@ -2,6 +2,8 @@
 
 ![](../submarinecablemap.png)
 
+<img src='../submarinecablemap.png' width='50%' height='50%'/>
+
 * "The Internet is not ... a big truck. It's a series of tubes." -- Theodore Fulton Stevens Sr.* [:notes:](https://www.youtube.com/watch?v=_cZC67wXUTs) [:microphone:](https://en.wikipedia.org/wiki/Series_of_tubes)
 
 
