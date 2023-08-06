@@ -118,7 +118,23 @@ cifar-10-python.tar 100%[===================>] 162.60M  36.5MB/s    in 4.9s
 [train108@login02 ~]$
 ````
 
+After the download completes, go ahead and list the files in your HOME directory.
 
+*Command:*
+
+```
+ls -lh
+````
+
+*Output:*
+
+```
+[train108@login02 ~]$ ls -lh
+total 163M
+-rw-r--r-- 1 train108 gue998 163M Jun  4  2009 cifar-10-python.tar.gz
+lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/si/2023
+[train108@login02 ~]$
+```
 
 ```
 [xdtr@login02 ~]$ ls -lh
