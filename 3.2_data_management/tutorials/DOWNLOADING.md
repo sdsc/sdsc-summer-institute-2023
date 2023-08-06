@@ -6,7 +6,7 @@
 
 [Image Credit: Submarine Cable Map](https://www.submarinecablemap.com/)
 
-The aim of this tutorial is to introduce you to a few common command-line tools that are useful for downloading data from the internet to your personal computer or an HPC system, and verifing the data is correct. The primary dataset we'll be working with is the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a well-known machine learning dataset that consists of 60000 32x32 pixel colour images in 10 classes, with 6000 images per class.
+The aim of this tutorial is to introduce you to command-line tools that are useful for downloading data from the internet to your personal computer or an HPC system, and verifing the data is correct. The dataset we'll be working with is the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a well-known machine learning dataset that consists of 60000 32x32 colour images in 10 classes, with 6000 images per class.
 
 <!-- https://data.gov/
 
