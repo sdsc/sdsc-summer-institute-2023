@@ -1,8 +1,6 @@
 ## CIFAR through the tubes: Downloading data from the internet
 
-
-
-![Expanse Storage and External Networks](../submarinecablemap.png)
+![](../submarinecablemap.png)
 
 [:notes:](https://www.youtube.com/watch?v=_cZC67wXUTs) [:microphone:](https://en.wikipedia.org/wiki/Series_of_tubes)
 
