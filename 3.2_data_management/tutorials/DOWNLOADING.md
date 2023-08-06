@@ -6,6 +6,7 @@
 
 [Image Credit: Submarine Cable Map](https://www.submarinecablemap.com/)
 
+The aim of this tutorial is to indoduce you to command-line tools that may be useful for downloading data from the interent to your personal computer or an HPC system.
 
 <!-- https://data.gov/
 
