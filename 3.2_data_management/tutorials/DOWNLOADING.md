@@ -1,6 +1,6 @@
 ## CIFAR through the tubes: Downloading data from the internet
 
-<img src='../submarinecablemap.png' width='75%' height='75%'/>
+<img src='../submarinecablemap.png' width='95%' height='55%'/>
 
 *"The Internet is not ... a big truck. It's a series of tubes." -- Theodore Fulton Stevens Sr.* [:notes:](https://www.youtube.com/watch?v=_cZC67wXUTs) [:microphone:](https://en.wikipedia.org/wiki/Series_of_tubes)
 
