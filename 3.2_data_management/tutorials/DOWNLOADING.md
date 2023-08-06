@@ -1,7 +1,7 @@
 ## CIFAR through the tubes: Downloading data from the internet [:notes:](https://www.youtube.com/watch?v=_cZC67wXUTs) [:microphone:](https://en.wikipedia.org/wiki/Series_of_tubes)
 
 
-<!--> https://data.gov/
+<!-- https://data.gov/
 
 https://en.m.wikipedia.org/wiki/Zettabyte_Era
 
