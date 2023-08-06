@@ -39,7 +39,7 @@ All times are in Pacific time.
 | 12:00 PM - 1:30 PM  | 	Lunch |    |
 | 1:30 PM – 2:30 PM	 |  [2.4 Batch Computing](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/2.4_batch_computing) | [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html) |
 | 2:30 PM – 2:45 PM | Break |    |
-| 2:45 PM – 4:15 PM   |  [2.5 Data Management](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/2.5_data_management) | [Marty Kandes](https://github.com/mkandes) |
+| 9:00 AM – 10:00 AM  | 	[2.5 Interactive Computing](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.2_interactive_computing) |  [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html)  |
 | 4:15 PM   | 	Q&A + Wrap-up |    |
 | 4:30 PM - 6:30 PM  | 	Reception |    |
 
@@ -50,7 +50,7 @@ All times are in Pacific time.
 | -------------------- | ----------- | ----------- |
 | 8:00 AM – 8:30 AM    | 	Check-in & Light Breakfast |    
 | 8:30 AM – 9:00 AM  |  [3.1 Security](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.1_security)  | [Nicole Wolter](https://profiles.ucsd.edu/nicole.wolter)  |
-| 9:00 AM – 10:00 AM  | 	[3.2 Interactive Computing](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.2_interactive_computing) |  [Mary Thomas](https://www.sdsc.edu/research/researcher_spotlight/thomas_mary.html)  |
+| 9:00 AM – 10:00 AM  | 	[3.2 Data Management](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/2.5_data_management) | [Marty Kandes](https://github.com/mkandes) |
 | 10:00 AM – 10:15 AM |  Break |  |
 | 10:15 AM – 11:00 AM  |  [3.3 Getting Help](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.3_getting_help)| [Nicole Wolter](https://profiles.ucsd.edu/nicole.wolter) |
 | 11:00 AM – 12:00 PM |  [3.4 Code Migration](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/3.4_code_migration) | [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) |
