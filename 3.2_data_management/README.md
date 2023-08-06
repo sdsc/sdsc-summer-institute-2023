@@ -18,7 +18,7 @@ HPC and advanced CI run on Linux. If you don't believe me, then look no further 
 
 *Recommendation for Windows users*: Install the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl) on your personal computer.
 
-*Data has a lifecycle. Data management is a lifestyle.*
+**Data has a lifecycle. Data management is a lifestyle.**
 
 <img src='https://datamanagement.hms.harvard.edu/sites/g/files/mcu941/files/assets/Images/Lifecycle-wheel-2tier.png' width='50%' height='50%'/>
 
