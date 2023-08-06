@@ -6,7 +6,7 @@
 
 [Image Credit: Submarine Cable Map](https://www.submarinecablemap.com/)
 
-The aim of this tutorial is to indoduce you to command-line tools that may be useful for downloading data from the interent to your personal computer or an HPC system.
+The aim of this tutorial is to introduce you to a few common command-line tools that are useful for downloading data from the interent to your personal computer or an HPC system. The primary dataset we'll be working with is the well-known [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), which consists of 60000 32x32 colour images in 10 classes, with 6000 images per class.
 
 <!-- https://data.gov/
 
