@@ -8,8 +8,9 @@ This repository hosts all material and slides of the presentations at the Summer
 
 ## Aliases, symlinks and reservations
 For your convenience, we’ve create aliases and symlinks for the Summer Institute
-* get-cpu – one interactive compute node for 2 hours
-* get-gpu – one interactive GPU (in shared queue) for 2 hours
+* srun-shared - start an interactive session on a shared compute node using 4 CPU-cores and 16 GB of memory
+* srun-compute – start an interactive session on a compute node
+* srun-gpu-shared – start an interactive session on one GPU
 * start-spark – start one-hour Spark session
 * start-tf-cpu – start three-hour TensorFlow session (CPU)
 * start-tf-gpu – start three-hour TensorFlow session (GPU)
