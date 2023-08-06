@@ -57,10 +57,12 @@ https://en.wikipedia.org/wiki/CURL -->
 
 Let's get started by logging into Expanse with your training account either via the Expanse User Portal or directly via SSH from your terminal application. 
 
+*Command:*
 ```
-$ ssh trainXXX@login.expanse.sdsc.edu
+ssh trainXXX@login.expanse.sdsc.edu
 ```
 
+*Output:*
 ```
 mkandes@hardtack:~$ ssh train108@login.expanse.sdsc.edu
 Password: 
