@@ -55,9 +55,40 @@ https://en.wikipedia.org/wiki/SHA-2
 https://en.wikipedia.org/wiki/CURL -->
 
 
+Let's get started by logging into Expanse with your training account either via the Expanse User Portal or directly via SSH from your terminal application. 
 
 ```
-$ ssh expanse
+$ ssh trainXXX@login.expanse.sdsc.edu
+```
+
+```
+mkandes@hardtack:~$ ssh train108@login.expanse.sdsc.edu
+Password: 
+Welcome to Bright release         9.0
+
+                                                         Based on Rocky Linux 8
+                                                                    ID: #000002
+
+--------------------------------------------------------------------------------
+
+                                 WELCOME TO
+                  _______  __ ____  ___    _   _______ ______
+                 / ____/ |/ // __ \/   |  / | / / ___// ____/
+                / __/  |   // /_/ / /| | /  |/ /\__ \/ __/
+               / /___ /   |/ ____/ ___ |/ /|  /___/ / /___
+              /_____//_/|_/_/   /_/  |_/_/ |_//____/_____/
+
+--------------------------------------------------------------------------------
+
+Use the following commands to adjust your environment:
+
+'module avail'            - show available modules
+'module add <module>'     - adds a module to your environment for this session
+'module initadd <module>' - configure module to be loaded at every login
+
+-------------------------------------------------------------------------------
+Last login: Sun Aug  6 16:30:09 2023 from 68.1.220.190
+[train108@login02 ~]$
 ```
 
 ```
