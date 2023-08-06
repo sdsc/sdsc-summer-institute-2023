@@ -8,11 +8,11 @@ This repository hosts all material and slides of the presentations at the Summer
 
 ## Aliases, symlinks and reservations
 For your convenience, we’ve create aliases and symlinks for the Summer Institute
-* srun-shared - start an interactive session on a shared compute node using 4 CPU-cores and 16 GB of memory
+* srun-shared - start an interactive session on a shared compute node
 * srun-compute – start an interactive session on a compute node
 * srun-gpu-shared – start an interactive session on one GPU
 * jupyter-shared-spark – start a JupyteLab session for Spark on a shared compute node
-* jupyter-compute-tensorflow – start a JupyterLab session for TensorFlow session on a compute node. 
+* jupyter-compute-tensorflow – start a JupyterLab session for TensorFlow session on a compute node
 * jupyter-gpu-shared-tensorflow – start a JupyterLab session for TensorFlow on one GPU
 * data – symlink to staged data
 In the event that you need to explicitly use the reservation, training accounts will have access to SI2021RES for duration of SI
