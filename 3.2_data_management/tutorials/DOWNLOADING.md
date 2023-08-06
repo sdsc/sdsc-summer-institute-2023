@@ -118,7 +118,7 @@ cifar-10-python.tar 100%[===================>] 162.60M  36.5MB/s    in 4.9s
 [train108@login02 ~]$
 ````
 
-After the download completes, go ahead and list the files in your HOME directory.
+After the download completes, go ahead and list the files in your HOME directory using the [`ls`](https://en.wikipedia.org/wiki/Ls) command.
 
 *Command:*
 
