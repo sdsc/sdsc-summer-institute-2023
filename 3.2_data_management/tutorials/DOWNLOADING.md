@@ -100,18 +100,25 @@ Once you are logged into Expanse, please go ahead and download the [CIFAR-10 dat
 wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 ```
 
+*Output:*
+
 ```
---2022-07-26 08:50:09--  https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+[train108@login02 ~]$ wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+--2023-08-06 16:46:48--  https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 Resolving www.cs.toronto.edu (www.cs.toronto.edu)... 128.100.3.30
 Connecting to www.cs.toronto.edu (www.cs.toronto.edu)|128.100.3.30|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 170498071 (163M) [application/x-gzip]
 Saving to: ‘cifar-10-python.tar.gz’
 
-cifar-10-python.tar 100%[===================>] 162.60M  34.0MB/s    in 5.3s    
+cifar-10-python.tar 100%[===================>] 162.60M  36.5MB/s    in 4.9s    
 
-2022-07-26 08:50:15 (30.4 MB/s) - ‘cifar-10-python.tar.gz’ saved [170498071/170498071]
-```
+2023-08-06 16:46:55 (32.9 MB/s) - ‘cifar-10-python.tar.gz’ saved [170498071/170498071]
+
+[train108@login02 ~]$
+````
+
+
 
 ```
 [xdtr@login02 ~]$ ls -lh
