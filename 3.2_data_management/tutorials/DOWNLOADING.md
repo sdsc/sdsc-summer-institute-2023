@@ -93,7 +93,7 @@ Last login: Sun Aug  6 16:30:09 2023 from 68.1.220.190
 [train108@login02 ~]$
 ```
 
-Once you are logged into Expanse, please go ahead and download the [CIFAR-10 dataset](https://en.wikipedia.org/wiki/CIFAR-10) using [wget](https://www.gnu.org/software/wget), a commandline tool for retrieving files via HTTP, HTTPS, FTP and FTPS protocols.
+Once you are logged into Expanse, please go ahead and download the [CIFAR-10 dataset](https://en.wikipedia.org/wiki/CIFAR-10) using [wget](https://www.gnu.org/software/wget), a command-line program for retrieving files via HTTP, HTTPS, FTP and FTPS protocols.
 
 *Command:*  
 ```
