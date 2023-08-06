@@ -2,7 +2,7 @@
 
 ![](../submarinecablemap.png)
 
-[:notes:](https://www.youtube.com/watch?v=_cZC67wXUTs) [:microphone:](https://en.wikipedia.org/wiki/Series_of_tubes)
+* "The Internet is not something that you just dump something on. It's not a big truck. It's a series of tubes." -- Theodore Fulton Stevens Sr.* [:notes:](https://www.youtube.com/watch?v=_cZC67wXUTs) [:microphone:](https://en.wikipedia.org/wiki/Series_of_tubes)
 
 
 <!-- https://data.gov/
