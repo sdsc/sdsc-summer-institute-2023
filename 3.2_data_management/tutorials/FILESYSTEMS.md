@@ -133,7 +133,7 @@ tmpfs                                                   tmpfs      13G     0   1
 ...
 ```
 
-Here, you see there are a number of local filesystems like [Ext4](https://en.wikipedia.org/wiki/Ext4) that are associated with storage devices phyically attached to the login node, while there are a number of distributed filesysmtes in addition to NFS like [Ceph](https://en.wikipedia.org/wiki/Ceph_(software)) and/or [Lustre](https://en.wikipedia.org/wiki/Lustre_(file_system)). 
+Here, you see there are a number of local filesystems like [ext4](https://en.wikipedia.org/wiki/Ext4) that are associated with storage devices phyically attached to the login node, while there are a number of distributed filesysmtes in addition to NFS like [Ceph](https://en.wikipedia.org/wiki/Ceph_(software)) and/or [Lustre](https://en.wikipedia.org/wiki/Lustre_(file_system)). 
 
 ![Expanse System Architecture](../expanse-system-architecture.png)
 
