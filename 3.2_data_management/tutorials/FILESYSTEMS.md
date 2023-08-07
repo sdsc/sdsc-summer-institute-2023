@@ -164,43 +164,18 @@ Let's see if there are any local [NVMe](https://en.wikipedia.org/wiki/NVM_Expres
 [train108@exp-3-21 ~]$
 ```
 
-What other filesystems are available?
+Let's go ahead and change to the local `/scratch` disk and then download the CIFAR image repository. 
 
+*Command:*
 ```
-df -Th | less
-```
-
-```
-Filesystem                                              Type      Size  Used Avail Use% Mounted on
-devtmpfs                                                devtmpfs  126G     0  126G   0% /dev
-tmpfs                                                   tmpfs     126G  2.7M  126G   1% /run
-/dev/sda2                                               ext4       63G   11G   49G  19% /
-none                                                    tmpfs     126G  1.7M  126G   1% /dev/shm
-tmpfs                                                   tmpfs     126G     0  126G   0% /sys/fs/cgroup
-/dev/sda3                                               ext4       20G  600M   18G   4% /tmp
-/dev/sda1                                               vfat      100M     0  100M   0% /boot/efi
-/dev/nvme0n1p1                                          ext4      916G  3.2G  867G   1% /scratch
-10.22.100.114:/pool4/home                               nfs       206T  9.3T  197T   5% /expanse/nfs/home4
-10.22.100.113:/pool3/home                               nfs       194T  9.3T  185T   5% /expanse/nfs/home3
-10.22.100.112:/pool2/home                               nfs       202T   11T  192T   6% /expanse/nfs/home2
-ps-071.sdsc.edu:/ps-data/community-sw                   nfs       1.0T  300G  725G  30% /expanse/community
-10.21.0.21:6789,10.21.11.7:6789,10.21.11.8:6789:/       ceph      1.7T  825G  832G  50% /cm/shared
-192.168.43.5:6789,192.168.43.6:6789:/                   ceph      3.5P  344G  3.5P   1% /expanse/ceph
-10.22.101.123@o2ib:10.22.101.124@o2ib:/expanse/scratch  lustre    9.8P  2.3P  7.6P  24% /expanse/lustre/scratch
-10.22.101.123@o2ib:10.22.101.124@o2ib:/expanse/projects lustre    9.8P  2.3P  7.6P  24% /expanse/lustre/projects
-10.22.100.113:/pool3/alt1                               nfs       194T  9.1T  185T   5% /expanse/nfs/home1
-master:/home                                            nfs       140G   90G   50G  65% /expanse/nfs/mgr1/home
-10.22.101.100:/itasser/vol                              nfs        53T   51T  2.6T  96% /expanse/projects/itasser
-tmpfs                                                   tmpfs      26G     0   26G   0% /run/user/515496
-10.22.100.112:/pool2/home/apike                         nfs       202T   11T  192T   6% /home/apike
-10.22.100.112:/pool2/home/fyu9                          nfs       202T   11T  192T   6% /home/fyu9
-...
+cd /scratch/$USER/job_$SLURM_JOB_ID
 ```
 
-![Expanse System Architecture](expanse-system-architecture.png)
-
-
-Change to the local `/scratch` disk and download the CIFAR image repository. 
+*Output:*
+```
+cd /scratch/$USER/job_$SLURM_JOB_ID
+[train108@exp-3-21 job_24468420]$
+```
 
 ```
 [xdtr108@exp-1-17 job_14751425]$ time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
