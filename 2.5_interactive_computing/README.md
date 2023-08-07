@@ -9,8 +9,8 @@
 * [Task 1: Clone the repo](#task1)
 * [Task 2: Hands-on: Interactive Computing on CPU Node](#task2)
 * [Task 3: Hands-on: Interactive Computing on GPU Node](#task3)
-* [Task 4: Hands-on: Run GnuPlot](#task4)
-* [Task 5: Examine NetCDF data](#task5)
+* [Task 4: Hands-on: Run GnuPlot on CPU](#task4)
+* [Task 5: Examine NetCDF data on CPU](#task5)
 
 **Summary**: Interactive computing refers to working with software that accepts input from the user as it runs. This applies not only to business and office applications, such as word processing and spreadsheet software, but HPC use cases involving code development, real-time data exploration and advanced visualizations run across one or more compute nodes. Interactive computing is often used when applications require large memory, have large data sets that are not that practical to download to local devices, need access to higher core counts or rely on software that is difficult to install. User inputs are entered via a command line interface (CLI) or application GUI (e.g., Jupyter Notebooks, Matlab, RStudio). Actions are initiated on remote compute nodes as a result of user inputs.  This session will introduce participants to advanced CI concepts and what’s going on "under the hood" when they are using interactive tools.  Topics covered will include mechanisms for accessing interactive resources; commonalities and differences between batch and interactive computing; understanding the differences between web-based services and X11/GUI applications; monitoring jobs running on interactive nodes; overview of Open OnDemand portals.
 
@@ -179,12 +179,12 @@ Hello,  SDSC HPC Training World!
 [Back to Top](#top)
 <hr>
 
-### TASK 4: Hands-on: Run GnuPlot<a name="task4"></a>
+### TASK 4: Hands-on: Run GnuPlot on CPU<a name="task4"></a>
 
 [Back to Top](#top)
 <hr>
 
-### TASK 5: Examine NetCDF data<a name="task5"></a>
+### TASK 5: Examine NetCDF data on CPU<a name="task5"></a>
 
 
 [Back to Top](#top)
