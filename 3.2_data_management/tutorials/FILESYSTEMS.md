@@ -1,6 +1,6 @@
 ## More files, more problems: Advantages and limitations of different filesystems
 
-The aim of this tuotiral is to teach you about the advantages and limitations of different [filesystems](https://en.wikipedia.org/wiki/File_system) that you'll typically find available to you on an HPC system. 
+The aim of this tutorial is to teach you about the advantages and limitations of different [filesystems](https://en.wikipedia.org/wiki/File_system) that you'll typically find available to you on an HPC system. 
 
 ```
 git clone https://github.com/YoongiKim/CIFAR-10-images.git
