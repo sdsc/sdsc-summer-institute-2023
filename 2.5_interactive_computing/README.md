@@ -140,10 +140,15 @@ Mon Aug  7 01:51:59 2023
 
 ```
 module purge
+module load gpu/0.15.4  gcc/7.2.0
+module load cuda/11.0.2
 module load slurm
-module load gpu
-module load cuda
-module list
+[mthomas@exp-7-59 hello-world]$ module list
+Currently Loaded Modules:
+  1) gpu/0.15.4 (g)   2) gcc/7.2.0   3) cuda/11.0.2   4) slurm/expanse/21.08.8
+
+  Where:
+   g:  built natively for Intel Skylake
 ```
 
 * cd to cuda/hello-world directory
