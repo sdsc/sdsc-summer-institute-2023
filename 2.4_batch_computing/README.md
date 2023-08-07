@@ -11,7 +11,7 @@
 * **Lecture material:**
    * Presentation Slides: https://github.com/sdsc/sdsc-summer-institute-2023/blob/main/2.4_batch_computing/MThomas-SDSC-SI23-Batch-Computing-Aug-7-2023.pdf
 * **Source Code/Examples:** 
-   * SDSC HPC Training Examples Repo @ [https://github.com:sdsc-hpc-training-org/hpctr-examples.git](https://github.com:sdsc-hpc-training-org/hpctr-examples.git)
+   * SDSC HPC Training Examples Repo @ [https://github.com/sdsc-hpc-training-org/hpctr-examples](https://github.com/sdsc-hpc-training-org/hpctr-examples)
    * Expanse 101 tutorial: https://hpc-training.sdsc.edu/expanse-101/
 
 ### TASKS: Hands-on
