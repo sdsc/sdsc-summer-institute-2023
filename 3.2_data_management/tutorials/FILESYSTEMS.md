@@ -1,6 +1,6 @@
 ## More files, more problems: Advantages and limitations of different filesystems
 
-The aim of this tutorial is to teach you about the advantages and limitations of different [filesystems](https://en.wikipedia.org/wiki/File_system) that you'll typically find available to you on an HPC system. 
+The aim of this tutorial is to teach you about the advantages and limitations of different [filesystems](https://en.wikipedia.org/wiki/File_system) that you'll typically find available to you on an HPC system. If you are not already logged in to Expanse, please login either via the Expanse User Portal or directly via SSH from your terminal application.
 
 ```
 git clone https://github.com/YoongiKim/CIFAR-10-images.git
