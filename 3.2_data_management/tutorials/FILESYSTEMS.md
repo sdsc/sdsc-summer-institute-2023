@@ -20,13 +20,22 @@ Resolving deltas: 100% (59990/59990), done.
 Updating files: 4% (2723/60001)
 ```
 
-Runtime to download on one of Expanse's login nodes.
+If you have not done so already, please go ahead and cancel your `git clone` command. It'll take way too long for us all to download this version of the dataset. How long?  This is the runtime measured to download it on on one of Expanse's login nodes.
 
+*Command*:
 ```
+time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
+```
+
+*Output:*
+```
+train108@login02 ~]$ time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
 real 1724.19
 user 1.01
 sys 3.36
 ```
+
+Why does it take so much time? What if you attempt to clone the dataset on 
 
 Runtime to download on my laptop's local disk.
 
