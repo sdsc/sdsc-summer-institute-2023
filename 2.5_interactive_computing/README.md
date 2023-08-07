@@ -104,10 +104,13 @@ PRIME_MPI - Master process:
 <hr>
 ### TASK 3: Hands-on: Interactive Computing on GPU Node <a name="task3"></a>
 #### Use the srun command to get an interactive GPU node:
+
 ```
 srun --partition=gpu-debug --pty --account=use300 --ntasks-per-node=10 --nodes=1 --mem=96G --gpus=1 -t 00:30:00 --wait=0 --export=ALL /bin/bash
 ```
+
 * Check that you are on an NVIDIA GPU:
+
 ```
 [mthomas@exp-7-59 mpi]$ nvidia-smi
 Mon Aug  7 01:51:59 2023       
@@ -134,12 +137,14 @@ Mon Aug  7 01:51:59 2023
 ```
 
 * Set up the module ENV:
+
 ```
 module purge
 module load slurm
 module load gpu
 module load cuda
 ```
+
 * cd to cuda/hello-world directory
 
 
