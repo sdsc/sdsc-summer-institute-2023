@@ -191,7 +191,7 @@ total 177M
 [train108@login02 ~]$
 ```
 
-See [Pickle](https://en.wikipedia.org/wiki/Serialization#Pickle).
+Let's check the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) website again. See [Pickle](https://en.wikipedia.org/wiki/Serialization#Pickle). 
 
 ```
 md5sum cifar-10-python.tar.gz
