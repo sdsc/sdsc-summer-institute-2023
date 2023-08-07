@@ -133,8 +133,9 @@ tmpfs                                                   tmpfs      13G     0   1
 ...
 ```
 
-- https://en.wikipedia.org/wiki/NVM_Express
-- https://en.wikipedia.org/wiki/Ext4
+Here, you see there are a number of local filesystems like [Ext4](https://en.wikipedia.org/wiki/Ext4) that are associated with storage devices phyically attached to the login node, while there are a number of distributed filesysmtes in addition to NFS like [Ceph](https://en.wikipedia.org/wiki/Ceph_(software)) and/or [Lustre](https://en.wikipedia.org/wiki/Lustre_(file_system)). 
+
+But do any of these filesystems solve the problem of speeding up the download of the CIFAR-10 dataset? 
 
 
 Let's start an interactive job.
