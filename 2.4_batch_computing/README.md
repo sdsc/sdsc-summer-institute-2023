@@ -19,6 +19,7 @@
    * Run the following examples: env_info, mpi/hello-mpi, and calc-prime
    * Both the batch script and interactive commands should work
    * For more examples and in-depth Expanse tutorial, see https://hpc-training.sdsc.edu/expanse-101/
+   * Practice passing variables into the batch script from the command line
 
 
 [Back to Top](#top)
