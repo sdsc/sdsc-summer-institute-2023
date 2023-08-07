@@ -192,7 +192,7 @@ total 177M
 ```
 
 
- How do we know the data we've downloaded from the internet is correct? How do we prove we all have the same data? 
+ How do we know the data we've downloaded from the internet is correct? How do we prove we all have the same data? Hash it. See [`md5sum`](https://en.wikipedia.org/wiki/Md5sum).
 
  *Command:*
 
@@ -200,6 +200,7 @@ total 177M
 md5sum cifar-10-python.tar.gz
 ```
 
+*Output:*
 ```
 [train108@login02 ~]$ md5sum cifar-10-python.tar.gz
 c58f30108f718f92721af3b95e74349a  cifar-10-python.tar.gz
