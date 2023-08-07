@@ -137,20 +137,17 @@ Here, you see there are a number of local filesystems like [Ext4](https://en.wik
 
 ![Expanse System Architecture](../expanse-system-architecture.png)
 
-Do any of these filesystems solve the problem of speeding up the download of the CIFAR-10 dataset? 
+Do any of these filesystems solve the problem of speeding up the download of the CIFAR-10 dataset? Let's anaswer this question by starting up an interactive session on a shared compute node using the following command alias. Once the scheduler has assigned you to a shared compute node, your interactive session on the compute node will open. 
 
-Let's start an interactive job.
-
+*Command:*
 ```
-srun --job-name=interactive --account=crl155 --partition=shared --reservation=SI2022DAY1 --nodes=1 --ntasks-per-node=1 --cpus-per-task=1 --mem=2G --time=00:30:00 --wait=0 --pty /bin/bash
+srun-shared
 ```
 
-Once the scheduler has assigned you compute resources, your interactive session on the compute node will open. 
-
+*Output:*
 ```
-srun: job 14751425 queued and waiting for resources
-srun: job 14751425 has been allocated resources
-[xdtr108@exp-1-17 ~]$
+[train108@login02 ~]$ srun-shared 
+[train108@exp-3-21 ~]$
 ```
 
 Let's see if there are any other NVMe drives on the compute nodes. 
