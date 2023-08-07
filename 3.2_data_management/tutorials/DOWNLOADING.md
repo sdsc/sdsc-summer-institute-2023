@@ -254,32 +254,79 @@ cifar-10-python.tar.gz: OK
 [train108@login02 ~]$
 ```
 
+There are other command-line programs you can use to download data from the internet. One other commonly used one (with a larger scope of features) is [`curl`](https://en.wikipedia.org/wiki/CURL). Let's download the CIFAR-10 dataset again with `curl`, but rename the new tarball so that we don't overwrite the original one. 
+
+*Command:*
 ```
 curl https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz -o cifar-10-python.tgz
 ```
 
+*Output:*
 ```
+[train108@login02 ~]$ curl https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz -o cifar-10-python.tgz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100  162M  100  162M    0     0  28.1M      0  0:00:05  0:00:05 --:--:-- 33.3M
+100  162M  100  162M    0     0  30.2M      0  0:00:05  0:00:05 --:--:-- 33.9M
+[train108@login02 ~]$
 ```
 
+Confirm you have two copies of the compressed dataset now. 
+
+*Command:* 
 ```
-[xdtr@login02 ~]$ ls -lh
+ls -lh
+```
+
+*Output:*
+```
+[train108@login02 ~]$ ls -lh
 total 326M
-drwxr-xr-x 2 xdtr abc123   10 Jun  4  2009 cifar-10-batches-py
--rw-r--r-- 1 xdtr abc123   57 Jul 26 08:53 cifar-10-python.md5
--rw-r--r-- 1 xdtr abc123 163M Jun  4  2009 cifar-10-python.tar.gz
--rw-r--r-- 1 xdtr abc123 163M Jul 26 08:54 cifar-10-python.tgz
+drwxr-xr-x 2 train108 gue998   10 Jun  4  2009 cifar-10-batches-py
+-rw-r--r-- 1 train108 gue998   57 Aug  7 10:35 cifar-10-python.md5
+-rw-r--r-- 1 train108 gue998 163M Jun  4  2009 cifar-10-python.tar.gz
+-rw-r--r-- 1 train108 gue998 163M Aug  7 11:05 cifar-10-python.tgz
+lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/si/2023
+[train108@login02 ~]$
 ```
+
+How can we show this data is the same? Maybe let's use a more [secure hash algorithm](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms) to check. Download this [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash file for the datasent. 
+
+*Command:*
 
 ```
 wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2022/main/2.5_data_management/cifar-10-python.sha256
 ```
 
+*Output:*
+
 ```
-[xdtr@login02 ~]$ sha256sum -c cifar-10-python.sha256 
+[train108@login02 ~]$ wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2022/main/2.5_data_management/cifar-10-python.sha256
+--2023-08-07 11:10:30--  https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2022/main/2.5_data_management/cifar-10-python.sha256
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 86 [text/plain]
+Saving to: ‘cifar-10-python.sha256’
+
+cifar-10-python.sha 100%[===================>]      86  --.-KB/s    in 0s      
+
+2023-08-07 11:10:31 (7.44 MB/s) - ‘cifar-10-python.sha256’ saved [86/86]
+
+[train108@login02 ~]$
+```
+
+Run the checksum.  
+
+*Command:*
+```
+sha256sum -c cifar-10-python.sha256
+```
+
+*Output:*
+```
+[train108@login02 ~]$ sha256sum -c cifar-10-python.sha256
 cifar-10-python.tgz: OK
+[train108@login02 ~]$
 ```
 
 #
