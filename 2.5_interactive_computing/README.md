@@ -26,7 +26,7 @@ srun: job 24459379 has been allocated resources
 [mthomas@exp-6-16 calc-prime]$
 ```
 * Set up the module ENV:
-  ```
+```
 module purge 
 module load slurm
 module load cpu
