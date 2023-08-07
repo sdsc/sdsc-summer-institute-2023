@@ -169,7 +169,7 @@ lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/
 [train108@login02 ~]$
 ```
 
-What type of files are these?
+What type of files are these? Let's check the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) website again. See [Pickle](https://en.wikipedia.org/wiki/Serialization#Pickle). 
 
 *Command:*
 ```
@@ -191,14 +191,19 @@ total 177M
 [train108@login02 ~]$
 ```
 
-Let's check the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) website again. See [Pickle](https://en.wikipedia.org/wiki/Serialization#Pickle). 
+
+ How do we know the data we've downloaded from the internet is correct? How do we prove we all have the same data? 
+
+ *Command:*
 
 ```
 md5sum cifar-10-python.tar.gz
 ```
 
 ```
+[train108@login02 ~]$ md5sum cifar-10-python.tar.gz
 c58f30108f718f92721af3b95e74349a  cifar-10-python.tar.gz
+[train108@login02 ~]$
 ```
 
 ```
