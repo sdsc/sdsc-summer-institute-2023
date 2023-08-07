@@ -192,7 +192,7 @@ total 177M
 ```
 
 
- How do we know the data we've downloaded from the internet is correct? How do we prove we all have the same data? Hash it. See [`md5sum`](https://en.wikipedia.org/wiki/Md5sum).
+ How do we know the data we've downloaded from the internet is correct? How do we prove we all have the same data? Hash it. Let's start with the traditional [`md5sum`](https://en.wikipedia.org/wiki/Md5sum) command-line program. 
 
  *Command:*
 
