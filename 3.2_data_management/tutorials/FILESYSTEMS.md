@@ -93,7 +93,7 @@ df -Th | grep "${USER}"
 [train108@login02 ~]$
 ```
 
-Nope. But it does allow you to see the different types of filesystems and total storage space available.
+Nope. But it does allow you to see the different types of filesystems and total amount of storage space available on each filesystem.
 
 *Command:*
 ```
