@@ -2,12 +2,16 @@
 
 The aim of this tutorial is to teach you about the advantages and limitations of different [filesystems](https://en.wikipedia.org/wiki/File_system) that you'll typically find available to you on an HPC system. If you are not already logged in to Expanse, please login to Expanse with your training account either via the Expanse User Portal or directly via SSH from your terminal application.
 
-Once you're logged into the system, go ahead and try to clone this GitHub repository that contains the CIFAR-10 dataset, but this version of the dataset is all 60K raw images in [jpeg](https://en.wikipedia.org/wiki/JPEG) format. 
+Once you're logged into the system, go ahead and try to clone this GitHub repository that contains the CIFAR-10 dataset, but this version of the dataset is all 60K raw images in [jpeg](https://en.wikipedia.org/wiki/JPEG) format. However, please be prepared to cancel the download. 
+
+*Command:* 
 ```
 git clone https://github.com/YoongiKim/CIFAR-10-images.git
 ```
 
+*Output:*
 ```
+[train108@login02 ~]$ git clone https://github.com/YoongiKim/CIFAR-10-images.git
 Cloning into 'CIFAR-10-images'...
 remote: Enumerating objects: 60027, done.
 remote: Total 60027 (delta 0), reused 0 (delta 0), pack-reused 60027
