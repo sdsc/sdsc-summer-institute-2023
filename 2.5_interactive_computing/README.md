@@ -140,7 +140,8 @@ Mon Aug  7 01:51:59 2023
 
 ```
 module purge
-module load gpu/0.15.4  gcc/7.2.0
+module load gpu/0.15.4
+module load gcc/7.2.0
 module load cuda/11.0.2
 module load slurm
 [mthomas@exp-7-59 hello-world]$ module list
@@ -152,8 +153,21 @@ Currently Loaded Modules:
 ```
 
 * cd to cuda/hello-world directory
+* compile hello-world
 
+```
+nvcc -o hello_world hello_world.cu
+```
 
+* Run the hello-world applciation
+
+```
+[mthomas@exp-7-59 hello-world]$ ./hello_world 
+Hello,  SDSC HPC Training World!
+[mthomas@exp-7-59 hello-world]$ 
+```
+
+* Try this for addition
 
 
 
