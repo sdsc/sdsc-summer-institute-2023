@@ -35,14 +35,27 @@ user 1.01
 sys 3.36
 ```
 
-Why does it take so much time? What if you attempt to clone the dataset on 
+Why does it take so much time? What if you attempt to clone the dataset on your laptop? This is runtime to download the dataset on my laptop's local disk.
 
-Runtime to download on my laptop's local disk.
-
+*Command:*
 ```
-real 1.87
-user 0.79
-sys 1.08
+time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
+```
+
+
+*Output:*
+```
+mkandes@hardtack:~$ time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
+Cloning into 'CIFAR-10-images'...
+remote: Enumerating objects: 60027, done.
+remote: Total 60027 (delta 0), reused 0 (delta 0), pack-reused 60027
+Receiving objects: 100% (60027/60027), 19.94 MiB | 8.03 MiB/s, done.
+Resolving deltas: 100% (59990/59990), done.
+Updating files: 100% (60001/60001), done.
+real 4.42
+user 1.25
+sys 1.17
+mkandes@hardtack:~$
 ```
 
 ![NFS Architecture](https://ars.els-cdn.com/content/image/3-s2.0-B9780124201583000186-f18-01-9780124201583.jpg)
