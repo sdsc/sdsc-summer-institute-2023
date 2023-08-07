@@ -12,6 +12,9 @@
    * Presentation Slides: will be made available closer to the session
 * **Source Code/Examples:** 
    * Dowload: SDSC HPC Training Examples Repo @ [https://github.com:sdsc-hpc-training-org/hpctr-examples.git](https://github.com:sdsc-hpc-training-org/hpctr-examples.git)
+   * Run the following examples: env_info, mpi/hello-mpi, and calc-prime
+   * Both the batch script and interactive commands should work
+   * For more examples and in-depth Expanse tutorial, see https://hpc-training.sdsc.edu/expanse-101/
 
 ### TASKS: None at this time.
 
