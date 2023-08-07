@@ -150,12 +150,23 @@ tar -xf cifar-10-python.tar.gz
 [train108@login02 ~]$
 ```
 
+With the data extracted from the tarball, let's go ahead and check out what's inside.
+
+*Command:*
 
 ```
-[xdtr@login02 ~]$ ls -lh
+ls -lh
+```
+
+*Output:*
+
+```
+[train108@login02 ~]$ ls -lh
 total 163M
-drwxr-xr-x 2 xdtr abc123   10 Jun  4  2009 cifar-10-batches-py
--rw-r--r-- 1 xdtr abc123 163M Jun  4  2009 cifar-10-python.tar.gz
+drwxr-xr-x 2 train108 gue998   10 Jun  4  2009 cifar-10-batches-py
+-rw-r--r-- 1 train108 gue998 163M Jun  4  2009 cifar-10-python.tar.gz
+lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/si/2023
+[train108@login02 ~]$
 ```
 
 ```
