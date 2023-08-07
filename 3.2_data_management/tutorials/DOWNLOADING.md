@@ -169,6 +169,7 @@ lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/
 [train108@login02 ~]$
 ```
 
+What type of files are these?
 
 *Command:*
 ```
@@ -189,6 +190,8 @@ total 177M
 -rw-r--r-- 1 train108 gue998 30M Mar 30  2009 test_batch
 [train108@login02 ~]$
 ```
+
+See [Pickle](https://en.wikipedia.org/wiki/Serialization#Pickle).
 
 ```
 md5sum cifar-10-python.tar.gz
