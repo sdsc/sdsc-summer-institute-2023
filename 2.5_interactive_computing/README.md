@@ -14,10 +14,15 @@
    * SDSC HPC Training Examples Repo @ [https://github.com:sdsc-hpc-training-org/hpctr-examples.git](https://github.com:sdsc-hpc-training-org/hpctr-examples.git)
    * Expanse 101 tutorial: https://hpc-training.sdsc.edu/expanse-101/
 
-### TASK 1: Clone the repo
+## Tasks:<a name="top">
+* [Task 1](#task1)
+* [Task 2](#task2)
+* [Task 3](#task3)
+
+### TASK 1: Clone the repo <a name="task1"></a>
    * Clone the  SDSC HPC Training Examples Repo @ [https://github.com:sdsc-hpc-training-org/hpctr-examples.git](https://github.com:sdsc-hpc-training-org/hpctr-examples.git)
 
-### TASK 2: Hands-on: Interactive Computing on CPU Node
+### TASK 2: Hands-on: Interactive Computing on CPU Node <a name="task2"></a>
 #### Use the srun command to get an interactive CPU node:
 ```
 [mthomas@login02 calc-prime]$ srun --partition=compute  --pty --account=use300 --nodes=1 --ntasks-per-node=128 --mem=8G -t 00:30:00 --wait=0 --export=ALL /bin/bash
@@ -83,7 +88,7 @@ PRIME_MPI - Master process:
 07 August 2023 01:44:11 AM
 ```
 
-### TASK 3: Hands-on: Interactive Computing on GPU Node
+### TASK 3: Hands-on: Interactive Computing on GPU Node <a name="task1"></a>
 #### Use the srun command to get an interactive GPU node:
 ```
 srun --partition=gpu-debug --pty --account=use300 --ntasks-per-node=10 --nodes=1 --mem=96G --gpus=1 -t 00:30:00 --wait=0 --export=ALL /bin/bash
