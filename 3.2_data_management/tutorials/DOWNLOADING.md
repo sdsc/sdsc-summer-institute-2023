@@ -207,16 +207,36 @@ c58f30108f718f92721af3b95e74349a  cifar-10-python.tar.gz
 [train108@login02 ~]$
 ```
 
+Next let's save the computed hash for the dataset as a file. 
+
+*Command:*
 ```
 md5sum cifar-10-python.tar.gz > cifar-10-python.md5
 ```
 
+*Output:*
 ```
-[xdtr@login02 ~]$ ls -lh
+[train108@login02 ~]$ md5sum cifar-10-python.tar.gz > cifar-10-python.md5
+[train108@login02 ~]$
+```
+
+Check that the hash file exists.
+
+*Command:*
+```
+ls -lh
+```
+
+*Output:*
+
+```
+[train108@login02 ~]$ ls -lh
 total 163M
-drwxr-xr-x 2 xdtr abc123   10 Jun  4  2009 cifar-10-batches-py
--rw-r--r-- 1 xdtr abc123   57 Jul 26 08:53 cifar-10-python.md5
--rw-r--r-- 1 xdtr abc123 163M Jun  4  2009 cifar-10-python.tar.gz
+drwxr-xr-x 2 train108 gue998   10 Jun  4  2009 cifar-10-batches-py
+-rw-r--r-- 1 train108 gue998   57 Aug  7 10:35 cifar-10-python.md5
+-rw-r--r-- 1 train108 gue998 163M Jun  4  2009 cifar-10-python.tar.gz
+lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/si/2023
+[train108@login02 ~]$
 ```
 
 ```
