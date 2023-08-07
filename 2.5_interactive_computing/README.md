@@ -83,6 +83,50 @@ PRIME_MPI - Master process:
 07 August 2023 01:44:11 AM
 ```
 
-### TASKS: None at this time.
+### TASK 3: Hands-on: Interactive Computing on GPU Node
+#### Use the srun command to get an interactive GPU node:
+```
+srun --partition=gpu-debug --pty --account=use300 --ntasks-per-node=10 --nodes=1 --mem=96G --gpus=1 -t 00:30:00 --wait=0 --export=ALL /bin/bash
+```
+* Check that you are on an NVIDIA GPU:
+```
+[mthomas@exp-7-59 mpi]$ nvidia-smi
+Mon Aug  7 01:51:59 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  On   | 00000000:18:00.0 Off |                    0 |
+| N/A   34C    P0    41W / 300W |      0MiB / 32768MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+[mthomas@exp-7-59 mpi]$ 
+```
+
+* Set up the module ENV:
+```
+module purge
+module load slurm
+module load gpu
+module load cuda
+```
+* cd to cuda/hello-world directory
+
+
+
+
+
+
 
 [Back to Top](#top)
