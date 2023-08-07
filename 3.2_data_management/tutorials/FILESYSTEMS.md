@@ -62,7 +62,7 @@ What is going on here? Why is there such a big difference in the time to downloa
 
 ![NFS Architecture](https://ars.els-cdn.com/content/image/3-s2.0-B9780124201583000186-f18-01-9780124201583.jpg)
 
-You can find which NFS server your training account's HOME directory is located on with the following (somewhat mysterious) command.
+You can find which NFS server your training account's HOME directory is located on with the following command.
 
 
 *Command:*
