@@ -23,12 +23,13 @@
    * SDSC HPC Training Examples Repo @ [https://github.com:sdsc-hpc-training-org/hpctr-examples.git](https://github.com:sdsc-hpc-training-org/hpctr-examples.git)
    * Expanse 101 tutorial: https://hpc-training.sdsc.edu/expanse-101/
 
-
+[Back to Top](#top)
 <hr>
 
 ### TASK 1: Clone the repo <a name="task1"></a>
    * Clone the  SDSC HPC Training Examples Repo @ [https://github.com:sdsc-hpc-training-org/hpctr-examples.git](https://github.com:sdsc-hpc-training-org/hpctr-examples.git)
 
+[Back to Top](#top)
 <hr>
 
 ### TASK 2: Hands-on: Interactive Computing on CPU Node <a name="task2"></a>
@@ -104,6 +105,7 @@ PRIME_MPI - Master process:
 07 August 2023 01:44:11 AM
 ```
 
+[Back to Top](#top)
 <hr>
 
 ### TASK 3: Hands-on: Interactive Computing on GPU Node <a name="task3"></a>
@@ -174,11 +176,12 @@ Hello,  SDSC HPC Training World!
 
 * Try this for addition
 
-
+[Back to Top](#top)
 <hr>
 
 ### TASK 4: Hands-on: Run GnuPlot<a name="task4"></a>
 
+[Back to Top](#top)
 <hr>
 
 ### TASK 5: Examine NetCDF data<a name="task5"></a>
