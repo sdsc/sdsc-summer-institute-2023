@@ -220,7 +220,7 @@ md5sum cifar-10-python.tar.gz > cifar-10-python.md5
 [train108@login02 ~]$
 ```
 
-Check that the hash file exists.
+Check that the hash file we created exists.
 
 *Command:*
 ```
@@ -239,9 +239,19 @@ lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/
 [train108@login02 ~]$
 ```
 
+Now, let's use the hash file to check the integrity of the dataset again. 
+
+*Command:*
+
 ```
-[xdtr@login02 ~]$ md5sum -c cifar-10-python.md5 
+md5sum -c cifar-10-python.md5
+```
+
+*Output:*
+```
+[train108@login02 ~]$ md5sum -c cifar-10-python.md5 
 cifar-10-python.tar.gz: OK
+[train108@login02 ~]$
 ```
 
 ```
