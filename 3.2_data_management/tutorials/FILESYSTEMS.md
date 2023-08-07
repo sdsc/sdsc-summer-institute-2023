@@ -58,17 +58,24 @@ sys 1.17
 mkandes@hardtack:~$
 ```
 
+What is going on here? Why is there such a big difference in the time to download the same dataset. Well, not all filesystems are local. For example, your HOME directory on Expanse is not physically located on the login node. It is hosted remotely from another server using the [Network File System (NFS)](https://en.wikipedia.org/wiki/Network_File_System), which is a distributed filesystem. 
+
 ![NFS Architecture](https://ars.els-cdn.com/content/image/3-s2.0-B9780124201583000186-f18-01-9780124201583.jpg)
 
-- https://en.wikipedia.org/wiki/Clustered_file_system
-- https://en.wikipedia.org/wiki/Network_File_System
+You can find which NFS server your training account's HOME directory is located on with the following (somewhat mysterious) command.
 
+
+*Command:*
 ```
 cat /etc/auto.home | grep "${USER}"
 ```
 
+*Output:*
 ```
-xdtr108       -fstype=bind :/expanse/nfs/home3/xdtr108
+[train108@login02 ~]$ cat /etc/auto.home | grep "${USER}"
+etrain108              -fstype=bind :/expanse/nfs/home4/etrain108
+train108               -fstype=bind :/expanse/nfs/home1/train108
+[train108@login02 ~]$
 ```
 
 ```
