@@ -1,5 +1,5 @@
 Bootstrap: oras
-From: ghcr.io/mkandes/naked-singularity:anaconda3-py39-2021.11-ubuntu-20.04
+From: ghcr.io/mkandes/naked-singularity:miniconda3-py39-4.11.0-ubuntu-20.04
 
 
 %labels

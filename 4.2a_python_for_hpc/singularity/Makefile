@@ -1,4 +1,4 @@
-img = dask-numba-si22.sif
+img = dask-numba-si23.sif
 recipe = Singularity.anaconda3-dask-numba
 
 build: ${recipe} clean
