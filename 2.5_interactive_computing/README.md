@@ -102,7 +102,7 @@ PRIME_MPI - Master process:
 ```
 
 <hr>
-### TASK 3: Hands-on: Interactive Computing on GPU Node <a name="task1"></a>
+### TASK 3: Hands-on: Interactive Computing on GPU Node <a name="task3"></a>
 #### Use the srun command to get an interactive GPU node:
 
 ```
@@ -170,7 +170,11 @@ Hello,  SDSC HPC Training World!
 * Try this for addition
 
 
+<hr>
+### TASK 4: Hands-on: Run GnuPlot<a name="task4"></a>
 
+<hr>
+### TASK 5: Examine NetCDF data<a name="task5"></a>
 
 
 [Back to Top](#top)
