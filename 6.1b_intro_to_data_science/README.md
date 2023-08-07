@@ -7,7 +7,7 @@
 In this short overview, we will show you a plethora of applications that are enabled by data science techniques and describe the process and cyberinfrastructure used within these projects to solve questions.
 
 **Presented by:** 
-* [Ilkay Altintas](https://www.sdsc.edu/research/researcher_spotlight/altintas_ilkay.html) (ialtintas @ucsd.edu)
+* Johnny Lei (jil1119 @ucsd.edu)
 * [Subhasis Dasgupta](https://profiles.ucsd.edu/subhasis.dasgupta) (sudasgupta @ucsd.edu)
 * [Shweta Purawat](https://profiles.ucsd.edu/shweta.purawat) (shpurawat @ucsd.edu)
 
