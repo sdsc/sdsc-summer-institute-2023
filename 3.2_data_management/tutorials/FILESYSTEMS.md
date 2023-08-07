@@ -78,45 +78,59 @@ train108               -fstype=bind :/expanse/nfs/home1/train108
 [train108@login02 ~]$
 ```
 
-```
-cat: /etc/auto.home: No such file or directory
-```
+How much space is avaiable in your HOME directory? Can you answer this question by using the [`df`](https://en.wikipedia.org/wiki/Df_(Unix)) command?
 
+*Command:* 
 ```
 df -Th | grep "${USER}"
 ```
 
+*Output:*
 ```
-10.22.100.113:/pool3/home/xdtr108                       nfs       194T  9.3T  185T   5% /home/xdtr108
+[train108@login02 ~]$ df -Th | grep "${USER}"
+10.22.100.111:/pool1/home/train108                      nfs       210T   14T  196T   7% /home/train108
+10.22.100.114:/pool4/home/etrain108                     nfs       205T   14T  191T   7% /home/etrain108
+[train108@login02 ~]$
 ```
 
+Nope. But it does allow you to see the different types of filesystems and total storage space availabkle on each. 
+
+*Command:*
 ```
-$ df -Th
-Filesystem     Type      Size  Used Avail Use% Mounted on
-udev           devtmpfs   16G     0   16G   0% /dev
-tmpfs          tmpfs     3.2G  2.3M  3.2G   1% /run
-/dev/nvme0n1p3 ext4      1.9T  217G  1.6T  13% /
-tmpfs          tmpfs      16G  172K   16G   1% /dev/shm
-tmpfs          tmpfs     5.0M  4.0K  5.0M   1% /run/lock
-tmpfs          tmpfs      16G     0   16G   0% /sys/fs/cgroup
-/dev/loop0     squashfs  128K  128K     0 100% /snap/bare/5
-/dev/loop2     squashfs  134M  134M     0 100% /snap/chromium/2033
-/dev/loop3     squashfs  114M  114M     0 100% /snap/core/13425
-/dev/loop1     squashfs  134M  134M     0 100% /snap/chromium/2020
-/dev/loop6     squashfs  219M  219M     0 100% /snap/gnome-3-34-1804/77
-/dev/loop8     squashfs   62M   62M     0 100% /snap/core20/1518
-/dev/loop11    squashfs  401M  401M     0 100% /snap/gnome-3-38-2004/112
-/dev/loop7     squashfs  255M  255M     0 100% /snap/gnome-3-38-2004/106
-/dev/loop9     squashfs   56M   56M     0 100% /snap/core18/2538
-/dev/loop4     squashfs  114M  114M     0 100% /snap/core/13308
-/dev/loop5     squashfs  243M  243M     0 100% /snap/gnome-3-34-1804/27
-/dev/loop14    squashfs   55M   55M     0 100% /snap/snap-store/558
-/dev/loop10    squashfs   56M   56M     0 100% /snap/core18/2409
-/dev/loop12    squashfs   82M   82M     0 100% /snap/gtk-common-themes/1534
-/dev/loop13    squashfs   92M   92M     0 100% /snap/gtk-common-themes/1535
-/dev/loop15    squashfs   62M   62M     0 100% /snap/core20/1581
-/dev/nvme0n1p1 vfat      811M  101M  711M  13% /boot/efi
-tmpfs          tmpfs     3.2G  2.4M  3.2G   1% /run/user/1001
+df -Th
+```
+
+*Output:*
+```
+[train108@login02 ~]$ df -Th
+Filesystem                                              Type      Size  Used Avail Use% Mounted on
+devtmpfs                                                devtmpfs   63G  4.0K   63G   1% /dev
+tmpfs                                                   tmpfs      63G   12M   63G   1% /run
+/dev/sda2                                               ext4       32G   22G  7.9G  74% /
+none                                                    tmpfs      63G  245M   63G   1% /dev/shm
+tmpfs                                                   tmpfs      63G     0   63G   0% /sys/fs/cgroup
+/dev/sda4                                               ext4       32G  1.5G   29G   5% /tmp
+/dev/sda1                                               vfat      100M     0  100M   0% /boot/efi
+/dev/sdb1                                               ext4      879G   44K  834G   1% /scratch
+10.22.100.114:/pool4/home                               nfs       205T   14T  191T   7% /expanse/nfs/home4
+10.22.100.111:/pool1/home                               nfs       210T   14T  196T   7% /expanse/nfs/home1
+10.22.100.112:/pool2/home                               nfs       199T   18T  181T  10% /expanse/nfs/home2
+ps-071.sdsc.edu:/ps-data/community-sw                   nfs       1.0T  301G  724G  30% /expanse/community
+master:/home                                            nfs       140G   83G   58G  60% /expanse/nfs/mgr1/home
+10.22.100.113:/pool3/home                               nfs       196T   14T  182T   7% /expanse/nfs/home3
+10.21.0.21:6789,10.21.11.7:6789,10.21.11.8:6789:/       ceph      1.6T  972G  652G  60% /cm/shared
+192.168.43.5:6789,192.168.43.6:6789:/                   ceph      3.3P   44T  3.3P   2% /expanse/ceph
+10.22.101.123@o2ib:10.22.101.124@o2ib:/expanse/projects lustre     11P  3.8P  7.1P  35% /expanse/lustre/projects
+10.22.101.123@o2ib:10.22.101.124@o2ib:/expanse/scratch  lustre     11P  3.8P  7.1P  35% /expanse/lustre/scratch
+10.22.100.112:/pool2/home/erfan                         nfs       199T   18T  181T  10% /home/erfan
+10.22.100.111:/pool1/home/geyan1                        nfs       210T   14T  196T   7% /home/geyan1
+10.22.100.111:/pool1/home/lcmoore                       nfs       210T   14T  196T   7% /home/lcmoore
+tmpfs                                                   tmpfs      13G     0   13G   0% /run/user/531940
+tmpfs                                                   tmpfs      13G     0   13G   0% /run/user/532702
+10.22.100.111:/pool1/home/kblighe1                      nfs       210T   14T  196T   7% /home/kblighe1
+10.22.100.114:/pool4/home/ksheriff                      nfs       205T   14T  191T   7% /home/ksheriff
+10.22.100.113:/pool3/home/aah217                        nfs       196T   14T  182T   7% /home/aah217
+...
 ```
 
 - https://en.wikipedia.org/wiki/NVM_Express
