@@ -150,11 +150,18 @@ srun-shared
 [train108@exp-3-21 ~]$
 ```
 
-Let's see if there are any other NVMe drives on the compute nodes. 
+Let's see if there are any local [NVMe](https://en.wikipedia.org/wiki/NVM_Express) drives on the compute nodes. 
 
+*Command:*
 ```
-[xdtr108@exp-1-17 ~]$ df -Th | grep nvme
-/dev/nvme0n1p1                                          ext4      916G   67G  804G   8% /scratch
+ df -Th | grep nvme
+```
+
+*Output:*
+```
+[train108@exp-3-21 ~]$ df -Th | grep nvme
+/dev/nvme0n1p1                                          ext4      916G  792K  870G   1% /scratch
+[train108@exp-3-21 ~]$
 ```
 
 What other filesystems are available?
