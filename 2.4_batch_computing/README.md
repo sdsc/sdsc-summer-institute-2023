@@ -11,7 +11,7 @@
 * **Lecture material:**
    * Presentation Slides: will be made available closer to the session
 * **Source Code/Examples:** 
-   * Dowload: SDSC HPC Training Examples Repo @ git@github.com:sdsc-hpc-training-org/hpctr-examples.git
+   * Dowload: SDSC HPC Training Examples Repo @ [https://github.com:sdsc-hpc-training-org/hpctr-examples.git](https://github.com:sdsc-hpc-training-org/hpctr-examples.git)
 
 ### TASKS: None at this time.
 
