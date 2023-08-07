@@ -118,7 +118,7 @@ cifar-10-python.tar 100%[===================>] 162.60M  36.5MB/s    in 4.9s
 [train108@login02 ~]$
 ````
 
-After the download completes, go ahead and list the files in your HOME directory using the [`ls`](https://en.wikipedia.org/wiki/Ls) command.
+After the download completes, go ahead and list the files in your HOME directory using the [`ls`](https://en.wikipedia.org/wiki/Ls) command to check out how muchdata we've downloaded.
 
 *Command:*
 
@@ -136,15 +136,20 @@ lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/
 [train108@login02 ~]$
 ```
 
-```
-[xdtr@login02 ~]$ ls -lh
-total 163M
--rw-r--r-- 1 xdtr abc123 163M Jun  4  2009 cifar-10-python.tar.gz
-```
+The dataset we've downloaded has been delieved to us as a [`gzip`](https://en.wikipedia.org/wiki/Gzip)-compressed `tar` file. To extract the dataset from the "tarball", use the [`tar`](https://en.wikipedia.org/wiki/Tar_(computing)) command.
 
+*Command:*
 ```
 tar -xf cifar-10-python.tar.gz
 ```
+
+*Output:*
+
+```
+[train108@login02 ~]$ tar -xf cifar-10-python.tar.gz
+[train108@login02 ~]$
+```
+
 
 ```
 [xdtr@login02 ~]$ ls -lh
