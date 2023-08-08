@@ -197,77 +197,174 @@ sys 0.98
 [train108@exp-9-56 job_24472115]$
 ```
 
-```
-[xdtr108@exp-1-17 job_14751425]$ ls -lh
-total 4.0K
-drwxr-xr-x 5 xdtr108 uic157 4.0K Jul 26 09:11 CIFAR-10-images
-```
+Wow! That was fast! And that's what the node local `/scratch` disk is good for --- high I/O and metadata operations. Now that we have a working copy of the raw image dataset, let's package it up the repository into a compressed [`zip`](https://linuxize.com/post/how-to-zip-files-and-directories-in-linux) archive file that will be easier to move to other filessytems on Expanse. 
 
-Create a zip archive of the CIFAR image repository. 
 
+*Command:*
 ```
 zip -r CIFAR-10-images.zip CIFAR-10-images
 ```
 
+*Output:*
+```
+[train108@exp-9-56 job_24472115]$ zip -r CIFAR-10-images.zip CIFAR-10-images
+...
+adding: CIFAR-10-images/train/cat/2815.jpg (deflated 17%)
+adding: CIFAR-10-images/train/cat/1910.jpg (deflated 18%)
+adding: CIFAR-10-images/train/cat/2862.jpg (deflated 19%)
+adding: CIFAR-10-images/train/cat/4829.jpg (deflated 18%)
+adding: CIFAR-10-images/train/cat/3621.jpg (deflated 18%)
+adding: CIFAR-10-images/train/cat/4036.jpg (deflated 18%)
+adding: CIFAR-10-images/train/cat/4328.jpg (deflated 18%)
+adding: CIFAR-10-images/train/cat/4564.jpg (deflated 22%)
+[train108@exp-9-56 job_24472115]$
+```
+
 Check the size of the zip archive. 
 
+*Command:*
 ```
-[xdtr108@exp-1-17 job_14751425]$ ls -lh
+ls -lh
+```
+
+*Output:*
+```
+[train108@exp-9-56 job_24472115]$ ls -lh
 total 78M
-drwxr-xr-x 5 xdtr108 uic157 4.0K Jul 26 09:11 CIFAR-10-images
--rw-r--r-- 1 xdtr108 uic157  78M Jul 26 09:11 CIFAR-10-images.zip
+drwxr-xr-x 5 train108 gue998 4.0K Aug  7 20:42 CIFAR-10-images
+-rw-r--r-- 1 train108 gue998  78M Aug  7 20:49 CIFAR-10-images.zip
+[train108@exp-9-56 job_24472115]$
 ```
 
-What is the size of the original image repository?
+What is the size of the original image repository? Use the [`du`](https://en.wikipedia.org/wiki/Du_(Unix)) command to check disk usage. 
 
+*Command:*
 ```
-[xdtr108@exp-1-17 job_14751425]$ du -h CIFAR-10-images
-60K	CIFAR-10-images/.git/hooks
-4.0K	CIFAR-10-images/.git/branches
-8.0K	CIFAR-10-images/.git/refs/remotes/origin
-...
+du -h CIFAR-10-images
+```
+
+*Output:*
+```
+[train108@exp-9-56 job_24472115]$ du -h CIFAR-10-images
+4.0M	CIFAR-10-images/test/truck
 4.0M	CIFAR-10-images/test/frog
 4.0M	CIFAR-10-images/test/dog
+4.0M	CIFAR-10-images/test/horse
 4.0M	CIFAR-10-images/test/ship
-...
+4.0M	CIFAR-10-images/test/bird
+4.0M	CIFAR-10-images/test/deer
+4.0M	CIFAR-10-images/test/automobile
+4.0M	CIFAR-10-images/test/airplane
+4.0M	CIFAR-10-images/test/cat
+40M	CIFAR-10-images/test
+8.0K	CIFAR-10-images/.git/logs/refs/heads
+8.0K	CIFAR-10-images/.git/logs/refs/remotes/origin
+12K	CIFAR-10-images/.git/logs/refs/remotes
+24K	CIFAR-10-images/.git/logs/refs
+32K	CIFAR-10-images/.git/logs
+4.0K	CIFAR-10-images/.git/objects/info
+22M	CIFAR-10-images/.git/objects/pack
+22M	CIFAR-10-images/.git/objects
+64K	CIFAR-10-images/.git/hooks
+8.0K	CIFAR-10-images/.git/info
+4.0K	CIFAR-10-images/.git/branches
+8.0K	CIFAR-10-images/.git/refs/heads
+8.0K	CIFAR-10-images/.git/refs/remotes/origin
+12K	CIFAR-10-images/.git/refs/remotes
+4.0K	CIFAR-10-images/.git/refs/tags
+28K	CIFAR-10-images/.git/refs
+27M	CIFAR-10-images/.git
+20M	CIFAR-10-images/train/truck
 20M	CIFAR-10-images/train/frog
 20M	CIFAR-10-images/train/dog
+20M	CIFAR-10-images/train/horse
 20M	CIFAR-10-images/train/ship
-...
+20M	CIFAR-10-images/train/bird
+20M	CIFAR-10-images/train/deer
+20M	CIFAR-10-images/train/automobile
+20M	CIFAR-10-images/train/airplane
+20M	CIFAR-10-images/train/cat
 197M	CIFAR-10-images/train
 263M	CIFAR-10-images
-[xdtr108@exp-1-17 job_14751425]$
+[train108@exp-9-56 job_24472115]$
 ```
 
-Remove the original repository from the local `/scratch` disk. 
+Remove the original repository from the node local `/scratch` disk. 
 
+*Command:*
 ```
 rm -rf CIFAR-10-images/
+```
+*Output*
+```
+[train108@exp-9-56 job_24472115]$ rm -rf CIFAR-10-images
+[train108@exp-9-56 job_24472115]$
 ```
 
 Unzip only the test dogs. 
 
+*Command:*
 ```
 unzip CIFAR-10-images.zip 'CIFAR-10-images/test/dog/*'
 ```
 
+*Output:*
+```
+[train108@exp-9-56 job_24472115]$ unzip CIFAR-10-images.zip 'CIFAR-10-images/test/dog/*'
+Archive:  CIFAR-10-images.zip
+creating: CIFAR-10-images/test/dog/
+inflating: CIFAR-10-images/test/dog/0235.jpg  
+inflating: CIFAR-10-images/test/dog/0857.jpg  
+inflating: CIFAR-10-images/test/dog/0878.jpg  
+inflating: CIFAR-10-images/test/dog/0779.jpg  
+inflating: CIFAR-10-images/test/dog/0137.jpg
+...
+inflating: CIFAR-10-images/test/dog/0320.jpg  
+inflating: CIFAR-10-images/test/dog/0395.jpg  
+inflating: CIFAR-10-images/test/dog/0980.jpg  
+[train108@exp-9-56 job_24472115]$
+```
+
 Copy the zip archive back to your HOME (NFS) directory. 
 
+*Command:*
 ```
-[xdtr108@exp-1-17 job_14751425]$ cp CIFAR-10-images.zip ~/
-[xdtr108@exp-1-17 job_14751425]$ cd ~/
-[xdtr108@exp-1-17 ~]$ ls -lh
+cp CIFAR-10-images.zip ~/
+```
+
+*Output:*
+```
+[train108@exp-9-56 job_24472115]$ cp CIFAR-10-images.zip ~/
+[train108@exp-9-56 job_24472115]$
+```
+
+And then check to make sure you'vegot the copy in your HOME directory.
+
+*Command 1:*
+```
+cd ~/
+```
+
+*Command 2:*
+```
+ls -lh
+```
+
+*Output:*
+```
+[train108@exp-9-56 job_24472115]$ cd ~/
+[train108@exp-9-56 ~]$ ls -lh
 total 373M
-drwxr-xr-x 2 xdtr108 uic157   10 Jun  4  2009 cifar-10-batches-py
-drwxr-xr-x 4 xdtr108 uic157    5 Jul 26 09:01 CIFAR-10-images
--rw-r--r-- 1 xdtr108 uic157  78M Jul 26 09:15 CIFAR-10-images.zip
--rw-r--r-- 1 xdtr108 uic157   57 Jul 26 08:53 cifar-10-python.md5
--rw-r--r-- 1 xdtr108 uic157   86 Jul 26 08:55 cifar-10-python.sha256
--rw-r--r-- 1 xdtr108 uic157 163M Jun  4  2009 cifar-10-python.tar.gz
--rw-r--r-- 1 xdtr108 uic157 163M Jul 26 08:54 cifar-10-python.tgz
-[xdtr108@exp-1-17 ~]$ exit
-exit
-[xdtr108@login01 ~]$
+drwxr-xr-x 2 train108 gue998   10 Jun  4  2009 cifar-10-batches-py
+-rw-r--r-- 1 train108 gue998  78M Aug  7 20:55 CIFAR-10-images.zip
+-rw-r--r-- 1 train108 gue998   57 Aug  7 10:35 cifar-10-python.md5
+-rw-r--r-- 1 train108 gue998   86 Aug  7 11:10 cifar-10-python.sha256
+-rw-r--r-- 1 train108 gue998 163M Jun  4  2009 cifar-10-python.tar.gz
+-rw-r--r-- 1 train108 gue998 163M Aug  7 11:05 cifar-10-python.tgz
+lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/si/2023
+drwx------ 2 train108 gue998    2 Aug  7 15:42 Downloads
+-rw-r--r-- 1 train108 gue998 1.8K Aug  7 15:55 Untitled.ipynb
+[train108@exp-9-56 ~]$
 ```
 
 Download the batch job script. It provides an example of how to use the local scratch disk in a job. 
