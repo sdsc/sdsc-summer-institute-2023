@@ -16,7 +16,7 @@ declare -xr LUSTRE_SCRATCH_DIR="/expanse/lustre/scratch/${USER}/temp_project"
 
 declare -xr LOCAL_SCRATCH_DIR="/scratch/${USER}/job_${SLURM_JOB_ID}"
 
-module purge
+module reset
 module list
 printenv
 
