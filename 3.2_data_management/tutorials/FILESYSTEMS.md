@@ -338,7 +338,7 @@ cp CIFAR-10-images.zip ~/
 [train108@exp-9-56 job_24472115]$
 ```
 
-And then check to make sure you'vegot the copy in your HOME directory.
+And then check to make sure you've got the copy in your HOME directory.
 
 *Command 1:*
 ```
