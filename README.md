@@ -73,7 +73,7 @@ All times are in Pacific time.
 | 10:15 AM – 12:30 PM  |  [4.2a Python for HPC](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/4.2a_python_for_hpc) | [Andrea Zonca](https://www.sdsc.edu/research/researcher_spotlight/zonca_andrea.html)  |
 | 10:15 AM – 12:30 PM	|  [4.2b Information Visualization Concepts](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/4.2b_info_vis_concept) | [Neil Smith](https://qi.ucsd.edu/about/leadership/neil-smith/)|
 | 12:30 PM - 2:00 PM	 |  Lunch  |  |
-| 2:00 PM – 4:30 PM  |  [4.3a Scientific Visualization for mesh based data with Visit](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/4.3a_scientific_vis_visit) | [Neil Smith](https://qi.ucsd.edu/about/leadership/neil-smith/)|
+| 2:00 PM – 4:30 PM  |  [4.3a Scientific Visualization for mesh based data with Unreal Engine 5](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/4.3a_scientific_vis_visit) | [Neil Smith](https://qi.ucsd.edu/about/leadership/neil-smith/)|
 | 2:00 PM – 4:30 PM  |  [4.3b Scalable Machine Learning](https://github.com/sdsc/sdsc-summer-institute-2023/tree/main/4.3b_scalable_machine_learning)  | [Mai Nguyen](https://www.sdsc.edu/research/researcher_spotlight/nguyen_mai.html) <br />[Paul Rodriguez](https://www.coursera.org/instructor/~13847302)|
 | 4:30 PM	 |  	Q&A + Wrap-up  |  |
 
