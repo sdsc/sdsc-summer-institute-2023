@@ -164,7 +164,7 @@ Let's see if there are any local [NVMe](https://en.wikipedia.org/wiki/NVM_Expres
 [train108@exp-3-21 ~]$
 ```
 
-Let's go ahead and change to the local `/scratch` disk and then download the CIFAR image repository. 
+Let's go ahead and change your current working directy to the local `/scratch` disk and then download the CIFAR image repository. 
 
 *Command:*
 ```
@@ -177,16 +177,27 @@ cd /scratch/$USER/job_$SLURM_JOB_ID
 [train108@exp-3-21 job_24468420]$
 ```
 
+*Command:*
 ```
-[xdtr108@exp-1-17 job_14751425]$ time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
+time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
+```
+
+*Output:*
+```
+[train108@exp-9-56 job_24472115]$ time -p git clone https://github.com/YoongiKim/CIFAR-10-images.git
 Cloning into 'CIFAR-10-images'...
 remote: Enumerating objects: 60027, done.
 remote: Total 60027 (delta 0), reused 0 (delta 0), pack-reused 60027
-Receiving objects: 100% (60027/60027), 19.94 MiB | 3.97 MiB/s, done.
+Receiving objects: 100% (60027/60027), 19.94 MiB | 29.17 MiB/s, done.
 Resolving deltas: 100% (59990/59990), done.
-real 6.94
-user 0.75
-sys 0.97
+Updating files: 100% (60001/60001), done.
+real 2.53
+user 0.67
+sys 0.98
+[train108@exp-9-56 job_24472115]$
+```
+
+```
 [xdtr108@exp-1-17 job_14751425]$ ls -lh
 total 4.0K
 drwxr-xr-x 5 xdtr108 uic157 4.0K Jul 26 09:11 CIFAR-10-images
