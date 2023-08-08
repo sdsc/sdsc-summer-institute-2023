@@ -6,7 +6,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
 #SBATCH --export=ALL
-#SBATCH --mem=220G
+#SBATCH --mem=240G
 #SBATCH -t 0:10:00
 
 srun bash ./launch_worker.sh
