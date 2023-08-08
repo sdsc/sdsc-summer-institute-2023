@@ -1,5 +1,6 @@
 Bootstrap: oras
-From: ghcr.io/mkandes/naked-singularity:miniconda3-py39-4.11.0-ubuntu-20.04
+From: ghcr.io/mkandes/naked-singularity:ubuntu-20.04
+# From: ghcr.io/mkandes/naked-singularity:miniconda3-py39-4.11.0-ubuntu-20.04
 
 
 %labels
@@ -14,21 +15,13 @@ From: ghcr.io/mkandes/naked-singularity:miniconda3-py39-4.11.0-ubuntu-20.04
 %setup
 
 %environment
-    export CONDA_DISTRIBUTION='anaconda'
-    export CONDA_VERSION='3'
-    export CONDA_PYTHON_VERSION='py39'
-    export CONDA_INSTALL_DIR="/opt/${CONDA_DISTRIBUTION}${CONDA_VERSION}"
 
-    # Set PATH to conda distribution
-    export PATH="${CONDA_INSTALL_DIR}/bin:${PATH}"
+    export MAMBA_ROOT_PREFIX="/opt/micromamba/"
+    export ENV_NAME=si23
+
+    export PATH="${MAMBA_ROOT_PREFIX}/envs/${ENV_NAME}/bin:${PATH}"
 
 %post -c /bin/bash
-
-    # Set operating system mirror URL
-    export MIRRORURL='http://us.archive.ubuntu.com/ubuntu'
-
-    # Set operating system version
-    export OSVERSION='bionic'
 
     # Set system locale
     export LC_ALL='C'
@@ -36,9 +29,24 @@ From: ghcr.io/mkandes/naked-singularity:miniconda3-py39-4.11.0-ubuntu-20.04
     # Set debian frontend interface
     export DEBIAN_FRONTEND='noninteractive'
 
-    export CONDA_INSTALL_DIR="/opt/${CONDA_DISTRIBUTION}${CONDA_VERSION}"
+    apt-get -y install graphviz
 
-    "${CONDA_INSTALL_DIR}/bin/conda" install -c conda-forge --quiet --yes \
+    # Cleanup
+    apt-get -y autoremove --purge
+    apt-get -y clean
+
+    export MAMBA_ROOT_PREFIX="/opt/micromamba/"
+    export MAMBA="${MAMBA_ROOT_PREFIX}/bin/micromamba"
+    export ENV_NAME=si23
+
+    mkdir -p ${MAMBA_ROOT_PREFIX}
+    cd ${MAMBA_ROOT_PREFIX}
+    curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
+
+    source ${HOME}/.bashrc
+
+    $MAMBA create -n $ENV_NAME -c conda-forge --yes \
+    'python==3.10' \
     'jupyterlab' \
     'dask' \
     'dask-labextension' \
@@ -47,10 +55,10 @@ From: ghcr.io/mkandes/naked-singularity:miniconda3-py39-4.11.0-ubuntu-20.04
     'python-graphviz' \
     'pandas' \
     'matplotlib' \
+    'h5py' \
     'Pillow' \
-    'zarr' && \
-    "${CONDA_INSTALL_DIR}/bin/conda" clean --all -f -y && \
-    "${CONDA_INSTALL_DIR}/bin/jupyter" serverextension enable dask_labextension
+    'jupyter-server-proxy' && \
+    "${MAMBA}" clean --all -f -y
 
     # Update database for mlocate
     updatedb
