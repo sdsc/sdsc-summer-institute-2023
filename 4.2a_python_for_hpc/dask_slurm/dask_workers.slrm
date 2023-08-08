@@ -1,15 +1,12 @@
 #!/bin/bash
 #SBATCH --job-name="dask-workers"
 #SBATCH --output="dask-workers.%j.%N.out"
-#SBATCH --partition=shared
-#SBATCH --account=crl155
-##SBATCH --account=sds166
+#SBATCH --partition=debug
+#SBATCH --account=gue998
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=2
-#SBATCH --cpus-per-task=16
+#SBATCH --ntasks-per-node=4
 #SBATCH --export=ALL
+#SBATCH --mem=220G
 #SBATCH -t 0:10:00
-### REMOVE RESERVATION AFTER THE SUMMER INSTITUTE
-#SBATCH --reservation=SI2021RES
 
 srun bash ./launch_worker.sh
