@@ -363,8 +363,21 @@ drwxr-xr-x 2 train108 gue998   10 Jun  4  2009 cifar-10-batches-py
 -rw-r--r-- 1 train108 gue998 163M Aug  7 11:05 cifar-10-python.tgz
 lrwxrwxrwx 1 train108 gue998   32 Aug  6 14:45 data -> /cm/shared/examples/sdsc/si/2023
 drwx------ 2 train108 gue998    2 Aug  7 15:42 Downloads
--rw-r--r-- 1 train108 gue998 1.8K Aug  7 15:55 Untitled.ipynb
 [train108@exp-9-56 ~]$
+```
+
+If so, then you can go ahead and [`exit`](https://en.wikipedia.org/wiki/Exit_(command)) your interactive job session. 
+
+*Command:*
+```
+exit
+```
+
+*Output:*
+```
+[train108@exp-9-56 ~]$ exit
+exit
+[train108@login01 ~]$
 ```
 
 Download the batch job script. It provides an example of how to use the local scratch disk in a job. 
