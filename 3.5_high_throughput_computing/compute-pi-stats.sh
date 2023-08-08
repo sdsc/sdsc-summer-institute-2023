@@ -14,8 +14,8 @@
 declare -xir DEPENDENT_SLURM_ARRAY_JOB_ID="$(echo ${SLURM_JOB_DEPENDENCY} | grep -o '[[:digit:]]*')"
 
 module reset
-module load gcc
-module load gnuplot
+module load gcc/10.2.0
+module load gnuplot/5.4.2
 
 echo "$(cat estimate-pi.o${DEPENDENT_SLURM_ARRAY_JOB_ID}.*)" | \
   gnuplot -e 'stats "-"; print STATS_mean, STATS_stddev'
