@@ -447,12 +447,31 @@ cp CIFAR-10-images.tar.gz "${LUSTRE_SCRATCH_DIR}"
 
 Submit the job to the scheduler.
 
+*Command:*
 ```
-[xdtr108@login01 ~]$ sbatch download-cifar-images.sh 
-Submitted batch job 14751956
-[xdtr108@login01 ~]$ squeue -u $USER
+sbatch download-cifar-images.sh 
+```
+
+*Output:*
+```
+[train108@login01 ~]$ sbatch download-cifar-images.sh 
+Submitted batch job 24472214
+[train108@login01 ~]$
+```
+
+Check the status of the job.
+
+*Command:*
+```
+squeue -u $USER
+```
+
+*Output:*
+```
+[train108@login01 ~]$ squeue -u $USER
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-          14751956     shared download  xdtr108  R       0:02      1 exp-9-55
+          24472214    shared download train108 PD       0:00      1 (Priority)
+[train108@login01 ~]$
 ```
 
 Check that the new tarball is located in your HOME directory. 
