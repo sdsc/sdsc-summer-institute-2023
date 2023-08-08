@@ -12,9 +12,6 @@
 
 ### Reading and Presentations:
 * **Lecture material:**
-   * Presentation Slides: will be made available closer to the session
-* **Source Code/Examples:** N/A
-
-### TASKS: None at this time.
-
-[Back to Top](#top)
+   * [Introductory Slides on Google Docs](https://docs.google.com/presentation/d/1AW0-MrupxGU7XFfcrPN2YQyqxD_yDlh2akXg7L4_x6s/edit?usp=sharing)
+* **Source Code/Examples:**
+   See all the files in this folder and subfolders
