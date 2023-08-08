@@ -1,5 +1,5 @@
 export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
-SIMG='/expanse/lustre/projects/sds166/zonca/dask-numba-si22.sif'
+SIMG='/expanse/lustre/projects/sds166/zonca/dask-numba-si23.sif'
 # Summer institute account
 # Use current folder
 NOTEBOOK_FOLDER=$(pwd -P)
