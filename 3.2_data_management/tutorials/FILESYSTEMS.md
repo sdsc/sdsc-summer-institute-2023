@@ -380,17 +380,46 @@ exit
 [train108@login01 ~]$
 ```
 
-Download the batch job script. It provides an example of how to use the local scratch disk in a job. 
+Finally, we're going to use some of the tools we've learned about to create a tarball of the CIFAR-10 raw mage dataset as part of a batch job. Start by downloading the batch job script usng `wget`. 
 
+
+*Command:*
 ```
-wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2022/main/2.5_data_management/download-cifar-images.sh
+wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2023/main/3.2_data_management/download-cifar-images.sh
 ```
 
+*Output:*
 ```
+[train108@login01 ~]$ wget https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2023/main/3.2_data_management/download-cifar-images.sh
+--2023-08-07 21:11:26--  https://raw.githubusercontent.com/sdsc/sdsc-summer-institute-2023/main/3.2_data_management/download-cifar-images.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 780 [text/plain]
+Saving to: ‘download-cifar-images.sh’
+
+download-cifar-imag 100%[===================>]     780  --.-KB/s    in 0s      
+
+2023-08-07 21:11:27 (74.6 MB/s) - ‘download-cifar-images.sh’ saved [780/780]
+
+[train108@login01 ~]$
+```
+
+And then inspect the job script using [`cat`](https://en.wikipedia.org/wiki/Cat_(Unix)). 
+
+*Command:*
+```
+cat download-cifar-images.sh 
+```
+
+*Output:*
+```
+[train108@login01 ~]$ cat download-cifar-images.sh 
 #!/usr/bin/env bash
 
 #SBATCH --job-name=download-cifar-images
-#SBATCH --account=sds184
+#SBATCH --account=gue998
+#SBATCH --reservation=hpcds23cpu
 #SBATCH --partition=shared
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -404,7 +433,7 @@ declare -xr LUSTRE_SCRATCH_DIR="/expanse/lustre/scratch/${USER}/temp_project"
 
 declare -xr LOCAL_SCRATCH_DIR="/scratch/${USER}/job_${SLURM_JOB_ID}"
 
-module purge
+module reset
 module list
 printenv
 
@@ -413,6 +442,7 @@ git clone https://github.com/YoongiKim/CIFAR-10-images.git
 tar -czf CIFAR-10-images.tar.gz CIFAR-10-images/
 cp CIFAR-10-images.tar.gz "${HOME}"
 cp CIFAR-10-images.tar.gz "${LUSTRE_SCRATCH_DIR}"
+[train108@login01 ~]$
 ```
 
 Submit the job to the scheduler.
