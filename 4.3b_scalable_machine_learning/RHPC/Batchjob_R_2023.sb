@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name="Rtestparal"
+#SBATCH --output="job.Rtest.%j.%N.out"
+#SBATCH --partition=compute
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=64  
+#SBATCH --export=ALL
+#SBATCH -t 0:05:00
+#SBATCH -A gue998
+
+#export OMP_NUM_THREADS=64 
+
+#Environment
+module purge
+
+module load slurm
+module load cpu/0.15.4
+module load gcc/9.2.0
+module load r/4.0.2-openblas
+
+#Execute R script to run linear model in parallel,
+#  arugments are rows and cols of a generated data matrix
+Rscript --vanilla TestDoParallel_v1.R 10000 2000 > stdout.10000.2000.txt
+
+
