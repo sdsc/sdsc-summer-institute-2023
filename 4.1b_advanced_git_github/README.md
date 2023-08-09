@@ -49,7 +49,7 @@ https://github.com/cli/cli/releases/latest
 [train108@login01 ~]$
 ```
 
-... and use today as part of the exercise. With the `gh` module loaded, go ahead and run the following command to being the authentication process with GitHub.
+... and use today as part of the exercise. With the `gh` module loaded, go ahead and run the following command to begin the authentication process with GitHub.
 
 ```
 [xdtr108@login01 ~]$ gh auth login
