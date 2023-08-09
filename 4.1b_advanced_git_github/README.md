@@ -19,32 +19,34 @@ $ ssh expanse
 Check the (default) loaded modules.
 
 ```
-[xdtr108@login01 ~]$ module list
+[train108@login01 ~]$ module list
 
 Currently Loaded Modules:
-  1) shared       3) slurm/expanse/21.08.8   5) DefaultModules
-  2) cpu/0.15.4   4) sdsc/1.0
+  1) shared            3) slurm/expanse/21.08.8   5) DefaultModules
+  2) cpu/0.17.3b (c)   4) sdsc/1.0
+
+  Where:
+   c:  built natively for AMD Rome
+
+[train108@login01 ~]$
 ```
 
 If for whatever reason you don't see the above modules listed, then please reset your environment to the default set of modules.
 
 ```
-[xdtr108@login01 ~]$ module reset
+[train108@login01 ~]$ module reset
 Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
-[xdtr108@login01 ~]$
+[train108@login01 ~]$
 ```
 
 Now that your default software environment is set. We'll take a quick look at the [GitHub CLI](https://cli.github.com), which we have installed on Expanse in a module ...
 
 ```
-[xdtr108@login01 ~]$ module load gh
-[xdtr108@login01 ~]$ gh --version
-gh version 1.13.1 (2021-07-20)
-https://github.com/cli/cli/releases/tag/v1.13.1
-
-
-A new release of gh is available: 1.13.1 → v2.14.3
-https://github.com/cli/cli/releases/tag/v2.14.3
+[train108@login01 ~]$ module load gh/2.0.0
+[train108@login01 ~]$ gh --version
+gh version  (2023-04-15)
+https://github.com/cli/cli/releases/latest
+[train108@login01 ~]$
 ```
 
 ... and use today as part of the exercise. With the `gh` module loaded, go ahead and run the following command to being the authentication process with GitHub.
