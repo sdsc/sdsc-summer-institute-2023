@@ -1,0 +1,112 @@
+INFO, global rank: 7  localrank  7
+INFO, global rank: 4  localrank  4
+INFO, global rank: 3  localrank  3
+INFO, global rank: 1  localrank  1
+INFO, global rank: 6  localrank  6
+INFO, global rank: 0  localrank  0
+INFO, global rank: 2  localrank  2
+INFO, global rank: 14  localrank  6
+INFO, global rank: 12  localrank  4
+INFO, global rank: 13  localrank  5
+INFO, global rank: 5  localrank  5
+INFO, global rank: 8  localrank  0
+INFO, global rank: 10  localrank  2
+INFO, global rank: 9  localrank  1
+INFO, global rank: 11  localrank  3
+INFO, global rank: 15  localrank  7
+INFO,cpus available rank: 14   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 8   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 12   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 10   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 1   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 3   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 9   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 15   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 13   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 11   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 2   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 4   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 7   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 6   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 0   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO,cpus available rank: 5   [PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')]
+INFO, num workers 16  rank: 0
+INFO, aft load Xtrain shape (60000, 28, 28, 1) (10000, 28, 28, 1)
+INFO, aft load Ytrain shape (60000,) (10000,)
+INFO, the per rank shard size is 3750
+INFO, aft split, Xtrain shape (3751, 28, 28, 1) (3751, 28, 28, 1)
+INFO, aft split, Ytrain shape (3751,) (3751,)
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ reshape (Reshape)           (None, 28, 28, 1)         0         
+                                                                 
+ conv2d (Conv2D)             (None, 26, 26, 16)        160       
+                                                                 
+ conv2d_1 (Conv2D)           (None, 24, 24, 16)        2320      
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 12, 12, 16)       0         
+ )                                                               
+                                                                 
+ flatten (Flatten)           (None, 2304)              0         
+                                                                 
+ dense (Dense)               (None, 128)               295040    
+                                                                 
+ dense_1 (Dense)             (None, 10)                1290      
+                                                                 
+=================================================================
+Total params: 298,810
+Trainable params: 298,810
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/15
+118/118 - 3s - loss: 0.2802 - accuracy: 0.9086 - val_loss: 0.1097 - val_accuracy: 0.9651 - 3s/epoch - 27ms/step
+Epoch 2/15
+118/118 - 1s - loss: 0.0560 - accuracy: 0.9835 - val_loss: 0.0651 - val_accuracy: 0.9768 - 1s/epoch - 10ms/step
+Epoch 3/15
+118/118 - 1s - loss: 0.0483 - accuracy: 0.9869 - val_loss: 0.0717 - val_accuracy: 0.9781 - 1s/epoch - 10ms/step
+Epoch 4/15
+118/118 - 1s - loss: 0.0268 - accuracy: 0.9901 - val_loss: 0.0691 - val_accuracy: 0.9781 - 1s/epoch - 10ms/step
+Epoch 5/15
+118/118 - 1s - loss: 0.0327 - accuracy: 0.9909 - val_loss: 0.0683 - val_accuracy: 0.9808 - 1s/epoch - 10ms/step
+Epoch 6/15
+118/118 - 1s - loss: 0.0222 - accuracy: 0.9931 - val_loss: 0.0849 - val_accuracy: 0.9768 - 1s/epoch - 10ms/step
+Epoch 7/15
+118/118 - 1s - loss: 0.0183 - accuracy: 0.9928 - val_loss: 0.0787 - val_accuracy: 0.9805 - 1s/epoch - 10ms/step
+Epoch 8/15
+118/118 - 1s - loss: 0.0124 - accuracy: 0.9949 - val_loss: 0.0693 - val_accuracy: 0.9795 - 1s/epoch - 9ms/step
+Epoch 9/15
+118/118 - 1s - loss: 0.0137 - accuracy: 0.9944 - val_loss: 0.0822 - val_accuracy: 0.9795 - 1s/epoch - 9ms/step
+Epoch 10/15
+118/118 - 1s - loss: 0.0166 - accuracy: 0.9952 - val_loss: 0.0888 - val_accuracy: 0.9792 - 1s/epoch - 10ms/step
+Epoch 11/15
+118/118 - 1s - loss: 0.0117 - accuracy: 0.9965 - val_loss: 0.0970 - val_accuracy: 0.9779 - 1s/epoch - 10ms/step
+Epoch 12/15
+118/118 - 1s - loss: 0.0200 - accuracy: 0.9931 - val_loss: 0.0851 - val_accuracy: 0.9813 - 1s/epoch - 10ms/step
+Epoch 13/15
+118/118 - 1s - loss: 0.0124 - accuracy: 0.9952 - val_loss: 0.0832 - val_accuracy: 0.9811 - 1s/epoch - 10ms/step
+Epoch 14/15
+118/118 - 1s - loss: 0.0106 - accuracy: 0.9960 - val_loss: 0.0950 - val_accuracy: 0.9827 - 1s/epoch - 9ms/step
+Epoch 15/15
+INFO,done, rank:  4  train time: 19.09023  secs
+INFO,done, rank:  5  train time: 19.09062  secs
+INFO,done, rank:  7  train time: 19.0907  secs
+INFO,done, rank:  3  train time: 19.09161  secs
+INFO,done, rank:  15  train time: 19.07883  secs
+INFO,done, rank:  14  train time: 19.07893  secs
+INFO,done, rank:  13  train time: 19.0789  secs
+INFO,done, rank:  11  train time: 19.07914  secs
+INFO,done, rank:  6  train time: 19.09194  secs
+INFO,done, rank:  8  train time: 19.07914  secs
+INFO,done, rank:  9  train time: 19.07962  secs
+INFO,done, rank:  12  train time: 19.08239  secs
+INFO,done, rank:  10  train time: 19.07972  secs
+INFO,done, rank:  2  train time: 19.18863  secs
+118/118 - 1s - loss: 0.0130 - accuracy: 0.9963 - val_loss: 0.0903 - val_accuracy: 0.9805 - 1s/epoch - 10ms/step
+INFO,done, rank:  0  train time: 19.23196  secs
+INFO, min val acc= 0.9650759696960449  indx: 13
+INFO, This is rank 0 instance model evaluation
+INFO,done, rank:  1  train time: 19.23738  secs
+  1/118 [..............................] - ETA: 1s - loss: 0.0107 - accuracy: 1.0000 42/118 [=========>....................] - ETA: 0s - loss: 0.0933 - accuracy: 0.9814 84/118 [====================>.........] - ETA: 0s - loss: 0.0895 - accuracy: 0.9810118/118 [==============================] - 0s 1ms/step - loss: 0.0903 - accuracy: 0.9805
+[0.0902840793132782, 0.980538547039032]
