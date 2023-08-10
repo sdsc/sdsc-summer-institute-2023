@@ -10,7 +10,7 @@
 ### Reading and Presentations:
 * **Lecture material:**
    * Presentation Slides: will be made available closer to the session
-* **Source Code/Examples:** N/A
+* **Source Code/Examples:** See details in run_commands.txt file in this section repository
 
 ### TASKS: None at this time.
 
