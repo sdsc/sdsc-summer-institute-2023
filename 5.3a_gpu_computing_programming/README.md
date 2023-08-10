@@ -235,12 +235,13 @@ Now take a look at the directory `cuda-samples` in the SI2023 Github repository,
 
 This Github repository also contains the OpenACC examples that were discussed during the presentation (directory `openacc-samples`).
 
-First, load the NVHPC SDK
+First, load the NVHPC SDK. Make sure to unload the CUDA Toolkit if it is loaded. We can do this by resetting the environment.
 ```
+module reset
 module load nvhpc/21.9
 ```
 
-You should now have the PGI compiler available. We can check for example for the version of the PGI C compiler
+You should now have the NVHPC (formerly PGI) compiler available. In all examples below you can replace `pgcc` with `nvc` and `pgf90` with `nvfortran`. We can check for example for the version of the PGI C compiler
 ```
 pgcc --version
 ```
