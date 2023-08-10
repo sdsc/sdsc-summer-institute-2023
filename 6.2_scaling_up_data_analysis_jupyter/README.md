@@ -54,7 +54,7 @@ For this task you will compare the runtime for a simple data analysis using 5 da
 
 2. Copy data files
 
-    Run the ```1-FetchDataSummerInstitute.ipynb``` notebook to copy two data sets of gene information (gene_info.gz, gene_info.parquet) to the scratch disk on the GPU node.
+    Run the ```1-FetchDataSummerInstitute.ipynb``` notebook to copy two data sets of gene information (gene_info.tsv, gene_info.parquet) to the scratch disk on the GPU node.
 
 3. Run the Dataframe notebooks with a csv input file
 
