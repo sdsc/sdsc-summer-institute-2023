@@ -8,8 +8,7 @@
 **Presented by:** [Mahidhar Tatineni](https://www.sdsc.edu/research/researcher_spotlight/tatineni_mahidhar.html) (mtatineni @ucsd.edu)
 
 ### Reading and Presentations:
-* **Lecture material:**
-   * Presentation Slides: will be made available closer to the session
+* **Lecture material:** Slides in SI2023_Parallel_Computing.pdf file
 * **Source Code/Examples:** See details in run_commands.txt file in this section repository
 
 ### TASKS: None at this time.
