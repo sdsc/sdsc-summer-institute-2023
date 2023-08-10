@@ -237,7 +237,7 @@ This Github repository also contains the OpenACC examples that were discussed du
 
 First, load the NVHPC SDK
 ```
-module load pgi
+module load nvhpc/21.9
 ```
 
 You should now have the PGI compiler available. We can check for example for the version of the PGI C compiler
