@@ -11,7 +11,9 @@ This session introduces approaches that can be used to perform machine learning 
 ### Reading and Presentations:
 * **Lecture material:**
    * Presentation Slides: will be made available closer to the session
-* **Source Code/Examples:** N/A
+* **Source Code/Examples:**
+   * https://github.com/sinkovit/performance-tuning
+   * https://github.com/sinkovit/profiling-tutorial
 
 ### TASKS: None at this time.
 
