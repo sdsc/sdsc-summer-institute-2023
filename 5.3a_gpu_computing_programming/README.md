@@ -75,7 +75,7 @@ Mon Jun 27 08:39:33 2022
 
 ## Hands-on exercises on SDSC Expanse – CUDA
 
-This Github repository contains the CUDA examples that were discussed during the presentation (directory `cuda-samples`) as well as a few select examples from the Nvidia CUDA samples (directory `nvidia-cuda-samples`).
+This Github repository contains the CUDA examples that were discussed during the presentation (directory `cuda-samples`).
 
 If you are interested in additional CUDA samples, take a look at the [official Nvidia CUDA samples Github repository](https://github.com/NVIDIA/cuda-samples). The Nvidia CUDA samples are also available in your `etrainXX` home directory under `~/data/cuda-samples-v11.6.tar.gz`.
 
