@@ -279,7 +279,7 @@ pgcc jacobi.c -fast -o jacobi-pgcc.x
 pgf90 jacobi-omp.f90 -fast -mp -Minfo=mp -o jacobi-pgf90-omp.x 
 
 # OpenMP parallel C code
-pgcc jacobi-omp.c -fast -mp -Minfo=mp -o jacobi-pgfcc-omp.x 
+pgcc jacobi-omp.c -fast -mp -Minfo=mp -o jacobi-pgcc-omp.x 
 
 # OpenACC Fortran version
 pgf90 jacobi-acc.f90 -acc -Minfo=accel -o jacobi-pgf90-acc.x 
