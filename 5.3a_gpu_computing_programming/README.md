@@ -7,7 +7,7 @@
 
 **Presented by:** [Andreas Goetz](https://www.sdsc.edu/research/researcher_spotlight/goetz_andreas.html) (awgoetz @ucsd.edu)
 
-**Presentation Slides**: [GPU Computing and Programming](GPU Computing SI2023.pdf)
+**Presentation Slides**: [GPU Computing and Programming](<GPU Computing SI2023.pdf>)
 
 
 **Source code**:
