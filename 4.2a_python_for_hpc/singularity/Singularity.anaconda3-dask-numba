@@ -57,6 +57,8 @@ From: ghcr.io/mkandes/naked-singularity:ubuntu-20.04
     'matplotlib' \
     'h5py' \
     'Pillow' \
+    'ipywidgets' \
+    'skimage' \
     'jupyter-server-proxy' && \
     "${MAMBA}" clean --all -f -y
 
