@@ -56,8 +56,8 @@ The Summer Institute is a combination of in-depth lectures and hands-on learning
 <hr>
 
 ## Software Requirements: <a name="software"></a>
-The document below contains a list of software being used at the institute and installation instructions:
-* [Software_Requirements](https://github.com/sdsc/sdsc-summer-institute-2023/blob/main/0_Preparation/software_requirements.md)
+The links/documents below contains a list of software being used at the institute and installation instructions:
+* TBD
 
 [Back to Top](#top)
 <hr>
